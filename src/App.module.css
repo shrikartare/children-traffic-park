@@ -1,0 +1,105 @@
+.aboutUs{
+    display:flex;
+    padding: 10px;
+    @media screen and (max-width: 600px) {
+        display:block;
+      }
+}
+
+.infoContainer{      
+    padding: 10px;
+    background-color: rgb(245, 241, 239);
+    margin: 10px 45px;
+    border:1px solid rgb(100, 115, 148);
+    border-radius: 10px;
+    h3{
+        color: rgb(158, 73, 109);
+        text-align: center;
+        font-size: 26px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        margin: 5px;
+      }
+}
+.imageContainer{
+    width: 50%;
+    margin: 10px 45px;
+    img{
+        height:400px;
+        max-width:100%;
+    }
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        margin: 5px;
+      }
+}
+
+
+
+.visitContainer{
+    text-align: center;
+    margin: 50px 0px;
+    color: black;
+    background-color: rgb(245, 241, 239);
+    padding:20px;
+    .btnVisit{
+        color: white;
+        background-color: rgb(158, 73, 109);
+        border-radius: 5px;
+        height:40px;
+    }
+}
+
+.footerContainer{
+    background-color: #f1fbff;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    .reachUsContainer{
+        display: inline;
+    }
+}
+
+.quickLinks{
+    float:left;
+    margin-left:30%;
+    nav{
+        width:30%;
+    }
+    h4{
+        text-align: left;
+    }
+    ul{
+        margin-left:0px;
+        padding-left: 0px;
+    }
+    li{
+        display:block;
+        padding:15px 0px;
+        text-align: left;
+        a{
+            color: black
+        }
+    }
+}
+
+.reachUsContainer{
+    float: right;
+    margin-right:15%;
+    text-align: left;
+    div{
+        text-align:left;
+        padding:10px 0px;
+    }
+ 
+}
+
+.copyrightText{
+    text-align: center;
+    height: 30px;
+    background-color: #003c67;
+    clear: both;
+    color: whitesmoke;
+}
