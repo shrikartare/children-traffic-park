@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from "./App.module.css"
 import Header from "./components/Header"
-import ImageCarousel from "./components/ImageCarousel"
-
 
 function App() {
 
@@ -10,16 +8,19 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     <ImageCarousel/>
+     <div className={styles.bannerImage} >
+        <img alt="img1"  src={require('./images/img02.jpeg')}/>
+      </div>
      <div className={styles.aboutUs}>
-      
-        <div className={styles.imageContainer}>
-         <img  src={"https://alkapuri.barodahighschool.com/pri-morning/wp-content/uploads/sites/2/2023/01/image-1_11zon-1024x683.jpg"} alt={"About Us"}/>
-        </div>
-        <div className={styles.infoContainer}>
           <h3>About Us</h3>
-          <p><strong>Children Traffic Park </strong> gives information about traffic rules and regulations that should be followed by people.
-          These park is specially for general citizens and  school going children.</p>
+          <div className={styles.imageContainer}>
+         <img  src={require('./images/img01.jpeg')} alt={"About Us"}/>
+          <p>A traffic park built near the office of DCP has been constructed by Vadodara Police Commissioner Anupamsigh Gehlot. 
+            It is an traffic park near the office of Bhudizampa Traffic DCP to make children understand traffic from an early age. 
+           Schools will come in traffic garden where children will learn through all signs related to traffic.
+           Small forests of 22 plants have been developed next to the traffice garden.10 police personnel have trained to explain traffic rules to children.
+           The police will also play quizzes on traffic to the children.
+          </p>
         </div>
 
      </div>
@@ -40,13 +41,13 @@ function App() {
           <div className={styles.reachUsContainer}>
           <h4>REACH US</h4>
               <div>
-                <b>Address:</b> Baroda High School, KG & Prim. Section WadiWadi,<br/> Alkapuri, Vadodara-390005
+                <b>Address:</b> Children Traffic Park, Near Karelibaug Police Station <br/> Karelibaug, Vadodara-390005
              </div>
               <div>
-                <b>Phone:</b> 9016962437
+                <b>Phone:</b> 8460210158
               </div>
               <div>
-                <b>Email: </b> office.bhsap@bhs.edu.in
+                <b>Email: </b> shrikar.tare@gmail.com
               </div>
           </div>
         

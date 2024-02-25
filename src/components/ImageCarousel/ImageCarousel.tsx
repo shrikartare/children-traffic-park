@@ -18,10 +18,10 @@ const  ImageCarousel = ()=>{
          <div className={styles.sliderContainer}>
           <Slider {...settings}>
             <div>
-              <img alt="img1"  src={"https://alkapuri.barodahighschool.com/pri-morning/wp-content/uploads/sites/2/2023/11/BHS_11zon-scaled-e1699524472286.jpg"}/>
+              <img alt="img1"  src={require('../../images/img01.jpeg')}/>
             </div>
             <div>
-            <img alt="img2"  src={"https://alkapuri.barodahighschool.com/pri-morning/wp-content/uploads/sites/2/2023/01/image-4_11zon-scaled.jpg"}/>
+            <img alt="img2"  src={require("../../images/img02.jpeg")  }/>
             </div>
           </Slider>
         </div>
