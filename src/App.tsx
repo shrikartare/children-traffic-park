@@ -44,10 +44,10 @@ function App() {
                 <b>Address:</b> Children Traffic Park, Near Karelibaug Police Station <br/> Karelibaug, Vadodara-390005
              </div>
               <div>
-                <b>Phone:</b> 8460210158
+                <b>Phone:</b> 12345665897
               </div>
               <div>
-                <b>Email: </b> shrikar.tare@gmail.com
+                <b>Email: </b> abc@gmail.com
               </div>
           </div>
         
