@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/children-traffic-park/static/css/main.2c0829a3.css",
-    "main.js": "/children-traffic-park/static/js/main.5fed697d.js",
-    "static/js/453.e42e2ff4.chunk.js": "/children-traffic-park/static/js/453.e42e2ff4.chunk.js",
-    "static/media/logo.png": "/children-traffic-park/static/media/logo.6f1fc92b7eae6cf32d43.png",
-    "static/media/img01.jpeg": "/children-traffic-park/static/media/img01.ceb5fa07ceb8405a6ead.jpeg",
-    "static/media/img02.jpeg": "/children-traffic-park/static/media/img02.e6bddf5774818b0172f1.jpeg",
-    "index.html": "/children-traffic-park/index.html",
-    "main.2c0829a3.css.map": "/children-traffic-park/static/css/main.2c0829a3.css.map",
-    "main.5fed697d.js.map": "/children-traffic-park/static/js/main.5fed697d.js.map",
-    "453.e42e2ff4.chunk.js.map": "/children-traffic-park/static/js/453.e42e2ff4.chunk.js.map"
+    "main.css": "/static/css/main.2c0829a3.css",
+    "main.js": "/static/js/main.d2968b50.js",
+    "static/js/453.e42e2ff4.chunk.js": "/static/js/453.e42e2ff4.chunk.js",
+    "static/media/logo.png": "/static/media/logo.6f1fc92b7eae6cf32d43.png",
+    "static/media/img01.jpeg": "/static/media/img01.ceb5fa07ceb8405a6ead.jpeg",
+    "static/media/img02.jpeg": "/static/media/img02.e6bddf5774818b0172f1.jpeg",
+    "index.html": "/index.html",
+    "main.2c0829a3.css.map": "/static/css/main.2c0829a3.css.map",
+    "main.d2968b50.js.map": "/static/js/main.d2968b50.js.map",
+    "453.e42e2ff4.chunk.js.map": "/static/js/453.e42e2ff4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c0829a3.css",
-    "static/js/main.5fed697d.js"
+    "static/js/main.d2968b50.js"
   ]
 }
