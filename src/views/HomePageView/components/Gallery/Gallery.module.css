@@ -1,0 +1,73 @@
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 23.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 47.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.galleryContainer {
+  text-align: center;
+  padding: 20px 0px 10px 20px;
+  h2 {
+    color: #14195d;
+    margin-bottom: 10px;
+  }
+}
+
+.dividerLine {
+  margin: 10px auto 20px auto;
+  width: 250px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #14195d;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.viewMoreBtn {
+  position: relative;
+  font-family: redhatdisplay;
+  background-color: #14195d;
+  display: block;
+
+  border-radius: 27px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding: 15px 50px 15px 35px;
+  margin: 30px auto;
+}

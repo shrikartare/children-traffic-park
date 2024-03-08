@@ -1,0 +1,51 @@
+.growingMoment {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/1708930666923.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(20, 25, 93, 0.84);
+  opacity: 0.8;
+  height: 400px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: rgba(255, 255, 255, 2.6);
+  }
+}
+
+.visitTrafficParkBtn {
+  position: relative;
+  font-family: redhatdisplay;
+  background-color: #14195d;
+  display: block;
+  margin-top: 30px;
+  border-radius: 27px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 35px;
+  margin: 0 auto;
+}
+
+.arrowRight {
+  position: absolute;
+  right: 19px;
+  top: 20px;
+}
+
+.growingMomentSection {
+  text-align: center;
+  flex-basis: 50%;
+}

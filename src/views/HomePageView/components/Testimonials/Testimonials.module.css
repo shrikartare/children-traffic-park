@@ -1,0 +1,53 @@
+.dividerLine {
+  margin: 10px auto 20px auto;
+  width: 250px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #14195d;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+h3 {
+  text-align: center;
+}
+
+.feedbackContainer {
+  padding: 0px 6% 0px 6%;
+  margin: 2% 0px 6% 0px;
+}
+
+.feedbackSection {
+  background-color: #f4f4f4;
+  padding:10px;
+}
+.feedbackInfo {
+  background-color: #019d4a;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  height: 280px;
+  width: 90% !important;
+  @media only screen and (max-width: 700px) {
+    width: 100% !important;
+  }
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background: grey;
+  margin: 0px auto;
+  vertical-align: middle;
+  text-align: center;
+  span {
+    padding-top: 13px;
+    display: inline-block;
+  }
+}

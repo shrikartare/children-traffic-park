@@ -1,0 +1,51 @@
+.aboutUs {
+  display: flex;
+  background-color: #f4f4f4;
+  padding: 30px 10px 80px 70px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .infoSection {
+    flex-basis: 60%;
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+  .videoSection {
+    flex-basis: 40%;
+    margin-top: 4%;
+    padding-left: 30px;
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+      padding-left: 0px;
+    }
+  }
+  h5 {
+    color: #bfbfbf;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 28px;
+    color: #14195d;
+    line-height: 45px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(10, 10, 10, 0.6);
+  }
+}
+.dividerLine {
+  margin-top: 10px;
+  width: 250px;
+  height: 3px;
+  margin-bottom: 10px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #14195d;
+}
