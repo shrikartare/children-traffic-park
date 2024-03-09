@@ -7,16 +7,19 @@ import Gallery from "./components/Gallery";
 import GrowingMoment from "./components/GrowingMoment";
 import Testimonials from "./components/Testimonials";
 
-const HomeComponent = () => (
-  <>
-    <Header />
-    <Banner />
-    <AboutUs />
-    <GrowingMoment />
-    <Gallery />
-    <Testimonials />
-    <Footer />
-  </>
-);
+const HomeComponent = () => {
+  console.log("HomeComponent");
+  return (
+    <>
+      <Header />
+      <Banner />
+      <AboutUs />
+      <GrowingMoment />
+      <Gallery />
+      <Testimonials />
+      <Footer />
+    </>
+  );
+};
 
 export default HomeComponent;

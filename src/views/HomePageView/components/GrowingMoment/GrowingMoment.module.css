@@ -49,3 +49,9 @@
   text-align: center;
   flex-basis: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .growingMomentSection {
+    flex-basis: 100%;
+  }
+}

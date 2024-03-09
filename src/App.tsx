@@ -7,7 +7,7 @@ import GalleryView from "./views/GalleryView";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/children-traffic-park">
       <Routes>
         <Route path="/" element={<HomePageView />} />
         <Route path="/aboutus" element={<AboutUsView />} />
