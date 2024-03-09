@@ -1,0 +1,64 @@
+.aboutUsView {
+  p {
+    color: #666666;
+    font-weight: 400;
+  }
+}
+
+.aboutUsView > h2 {
+  color: #14195d;
+  margin: 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.aboutUsInfo {
+  display: flex;
+  margin-top: 3%;
+  padding: 0px 40px 40px 40px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  .aboutUsImage {
+    flex-basis: 49%;
+    margin-right: 49px;
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+      margin-right: 0px;
+    }
+  }
+  div {
+    flex-basis: 49%;
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.dividerLine {
+  margin-top: 8px;
+  width: 250px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #14195d;
+}
+
+.welcomeContainer h2 {
+  margin-bottom: 5px;
+}
+.aboutUsHeadLine {
+  background-color: #f2f2f2;
+  height: 100px;
+  h2 {
+    color: #14195d;
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 30%;
+  }
+}

@@ -11,27 +11,23 @@ const Header = () => {
     <header>
       <div className={styles.headerContainer}>
         <div className={styles.siteLogo}>
-          <img src={logo} alt="Logo" />
+          <a href="/" onClick={() => navigate("/")}>
+            <img src={logo} alt="Logo" />
+          </a>
         </div>
         <nav className={styles.desktopMenu}>
           <ul>
             <li>
-              <a href="/">home</a>
+              <a onClick={() => navigate("/")}>home</a>
             </li>
             <li>
-              <a href="/aboutus" onClick={() => navigate("aboutus")}>
-                about us
-              </a>
+              <a onClick={() => navigate("/aboutus")}>about us</a>
             </li>
             <li>
-              <a href="gallery" onClick={() => navigate("gallery")}>
-                gallery
-              </a>
+              <a onClick={() => navigate("/gallery")}>gallery</a>
             </li>
             <li>
-              <a href="contactus" onClick={() => navigate("contactus")}>
-                contact us
-              </a>
+              <a onClick={() => navigate("/contactus")}>contact us</a>
             </li>
           </ul>
         </nav>
@@ -57,16 +53,16 @@ const Header = () => {
         <nav className={styles.hamburgerMenu}>
           <ul>
             <li>
-              <a href="#home">home</a>
+              <a onClick={() => navigate("/")}>home</a>
             </li>
             <li>
-              <a href="#home">about us</a>
+              <a onClick={() => navigate("/aboutus")}>about us</a>
             </li>
             <li>
-              <a href="#home">gallery</a>
+              <a onClick={() => navigate("/gallery")}>gallery</a>
             </li>
             <li>
-              <a href="#home">contact us</a>
+              <a onClick={() => navigate("/contactus")}>contact us</a>
             </li>
           </ul>
         </nav>

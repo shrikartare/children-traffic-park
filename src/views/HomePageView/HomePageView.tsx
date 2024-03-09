@@ -8,7 +8,6 @@ import GrowingMoment from "./components/GrowingMoment";
 import Testimonials from "./components/Testimonials";
 
 const HomeComponent = () => {
-  console.log("HomeComponent");
   return (
     <>
       <Header />

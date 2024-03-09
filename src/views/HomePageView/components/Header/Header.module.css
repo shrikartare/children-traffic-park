@@ -38,6 +38,7 @@ header {
   ul li {
     display: inline-block;
     position: relative;
+    cursor: pointer;
   }
   li a {
     padding: 0 20px;
