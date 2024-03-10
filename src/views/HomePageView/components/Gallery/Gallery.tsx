@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import { useNavigate } from "react-router-dom";
 import styles from "./Gallery.module.css";
 
 const importAll = (r: any) => {
@@ -11,6 +12,7 @@ const galleryImages = importAll(
 );
 
 const Gallery = () => {
+  const navigate = useNavigate();
   const thumbnailImages = galleryImages.slice(0, 4);
   return (
     <div className={styles.galleryContainer}>
@@ -30,7 +32,10 @@ const Gallery = () => {
 
       <div className={styles.clearfix}></div>
 
-      <button className={styles.viewMoreBtn}>
+      <button
+        className={styles.viewMoreBtn}
+        onClick={() => navigate("/gallery")}
+      >
         View More
         <i
           className={classNames("fa fa-long-arrow-right", styles.arrowRight)}

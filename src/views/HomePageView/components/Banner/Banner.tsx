@@ -1,11 +1,13 @@
 import React from "react";
-import classNames from "classnames";
 import Slider from "react-slick";
+import { useNavigate } from "react-router-dom";
+import classNames from "classnames";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./Banner.module.css";
 
 const Banner = () => {
+  const navigate = useNavigate();
   const settings = {
     dots: true,
     infinite: true,
@@ -27,7 +29,10 @@ const Banner = () => {
         users
       </span>
 
-      <button className={styles.exploreMoreBtn}>
+      <button
+        className={styles.exploreMoreBtn}
+        onClick={() => navigate("/aboutus")}
+      >
         Learn More
         <i
           className={classNames("fa fa-long-arrow-right", styles.arrowRight)}

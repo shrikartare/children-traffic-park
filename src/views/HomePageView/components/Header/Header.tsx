@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
 import styles from "./Header.module.css";
-import logo from "../../../../images/logo.png";
+import logo from "../../../../images/logo.jpg";
 
 const Header = () => {
   const navigate = useNavigate();
   const [isHamburgerCloseIcon, setHamburgerCloseIcon] = useState(false);
+  const location = useLocation();
+  console.log("location", location?.pathname);
   return (
     <header>
       <div className={styles.headerContainer}>
@@ -18,22 +20,64 @@ const Header = () => {
         <nav className={styles.desktopMenu}>
           <ul>
             <li>
-              <a onClick={() => navigate("/")}>home</a>
+              <a
+                className={cn(location?.pathname === "/" && styles.activeLink)}
+                onClick={() => navigate("/")}
+              >
+                home
+              </a>
             </li>
             <li>
-              <a onClick={() => navigate("/aboutus")}>about us</a>
+              <a
+                className={cn(
+                  location?.pathname === "/aboutus" && styles.activeLink
+                )}
+                onClick={() => navigate("/aboutus")}
+              >
+                about us
+              </a>
             </li>
             <li>
-              <a onClick={() => navigate("/gallery")}>gallery</a>
+              <a
+                className={cn(
+                  location?.pathname === "/gallery" && styles.activeLink
+                )}
+                onClick={() => navigate("/gallery")}
+              >
+                gallery
+              </a>
             </li>
             <li>
-              <a onClick={() => navigate("/contactus")}>contact us</a>
+              <a
+                className={cn(
+                  location?.pathname === "/contactus" && styles.activeLink
+                )}
+                onClick={() => navigate("/contactus")}
+              >
+                contact us
+              </a>
             </li>
+
             <li>
-              <a onClick={() => navigate("/quiz")}>Quiz</a>
+              <a
+                className={cn(
+                  location?.pathname === "/testimonials" && styles.activeLink
+                )}
+                onClick={() => navigate("/testimonials")}
+              >
+                Testimonials
+              </a>
             </li>
+
             <li>
-              <a onClick={() => navigate("/testimonials")}>Testimonials</a>
+              <a
+                className={cn(
+                  location?.pathname === "/quiz" && styles.activeLink
+                )}
+                onClick={() => navigate("/quiz")}
+              >
+                Quiz
+              </a>
             </li>
           </ul>
         </nav>

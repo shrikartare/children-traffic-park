@@ -109,3 +109,7 @@ header {
     display: block;
   }
 }
+
+.activeLink {
+  color: #ffc235 !important;
+}

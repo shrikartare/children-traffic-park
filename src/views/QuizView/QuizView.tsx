@@ -5,7 +5,7 @@ import styles from "./QuizView.module.css";
 
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.jpg";
 
 const QuizView = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -36,6 +36,8 @@ const QuizView = () => {
           <p>
             {questions[currentQuestionIndex].id}.&nbsp;
             {questions[currentQuestionIndex]?.question}
+            &nbsp;&nbsp;&nbsp;
+            {/* {currentQuestionIndex+1}/{questions?.length} */}
           </p>
           <img src={logo} height="100" width="100" alt="trafficImage" />
           <div className={styles.optionContainer}>
@@ -59,6 +61,19 @@ const QuizView = () => {
                   onClick={(event) => onOptionClick(event, opt)}
                 >
                   {opt}
+                  {opt === questions[currentQuestionIndex]?.correctAnswer &&
+                    optionSelected && (
+                      <i
+                        className={cn("fa fa-check", styles.correctIcon)}
+                        aria-hidden="true"
+                      ></i>
+                    )}
+                  {!isCorrectAnsSelected && optionSelected === opt && (
+                    <i
+                      className={cn("fa fa-times", styles.wrongIcon)}
+                      aria-hidden="true"
+                    ></i>
+                  )}
                 </button>
               );
             })}

@@ -8,43 +8,57 @@
 }
 
 .bannerImg1 {
-  height: 700px;
+  height: 600px;
   max-width: 100%;
   width: 100%;
-  background-position-y: 40%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../../../images/1708930666943.jpg");
+    url("../../../../images/1708930666951.jpg");
   background-size: cover;
   display: inline-block;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 768px) {
+    background-size: 100% 100%;
+    height: auto;
+  }
 }
 
 .bannerImg2 {
-  height: 700px;
+  height: 600px;
   max-width: 100%;
   width: 100%;
-  background-position-y: 40%;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../../../images/1708930666935.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/img01.jpeg");
   background-size: cover;
   display: inline-block;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 768px) {
+    background-size: 100% 100%;
+    height: auto;
+  }
 }
 
 .bannerInfo {
   color: rgba(255, 255, 255, 2.6);
-  margin-top: 10%;
-  margin-left: 10%;
+  padding-top: 10%;
+  padding-left: 10%;
+  @media only screen and (max-width: 768px) {
+    padding-top: 5%;
+  }
   .bannerHeader {
-    font-size: 35px ;
+    font-size: 35px;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 69px;
     word-wrap: break-word;
     letter-spacing: 3px;
+    span {
+      color: #ffc235;
+    }
     @media only screen and (max-width: 768px) {
       font-size: 21px;
       font-weight: normal;
       line-height: normal;
+      margin-top: 3%;
     }
   }
   .exploreMoreBtn {
@@ -53,6 +67,7 @@
     background-color: #14195d;
     display: block;
     margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 27px;
     color: white;
     font-size: 14px;
@@ -62,12 +77,24 @@
     letter-spacing: 2px;
     word-wrap: break-word;
     padding: 15px 50px 15px 35px;
+    cursor: pointer;
+    @media only screen and (max-width: 768px) {
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 50px 10px 35px;
+    }
   }
 }
+
 .arrowRight {
   position: absolute;
   right: 19px;
   top: 20px;
+  @media only screen and (max-width: 768px) {
+    padding: 10px 50px 10px 35px;
+    right: -28px;
+    top: 6px;
+  }
 }
 
 .bannerContainer {

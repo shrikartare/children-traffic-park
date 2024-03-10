@@ -1,8 +1,10 @@
 import React from "react";
 import classNames from "classnames";
+import { useNavigate } from "react-router-dom";
 import styles from "./GrowingMoment.module.css";
 
 const GrowingMoment = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className={styles.growingMoment}>
@@ -14,7 +16,7 @@ const GrowingMoment = () => {
             of the change, schedule your visit now and empower your students
             with the knowledge of road safety.
           </p>
-          <button className={styles.visitTrafficParkBtn}>
+          <button className={styles.visitTrafficParkBtn} onClick={() => navigate("/contactus")}>
             Visit Traffic Park
             <i
               className={classNames(

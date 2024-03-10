@@ -1,6 +1,6 @@
 .growingMoment {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../../../images/1708930666923.jpg");
+    url("../../../../images/img02.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,8 +13,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  p {
+  p{
     color: rgba(255, 255, 255, 2.6);
+    font-weight: 500;
   }
 }
 
@@ -37,6 +38,7 @@
   padding-right: 50px;
   padding-left: 35px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .arrowRight {

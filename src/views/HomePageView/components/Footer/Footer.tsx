@@ -1,8 +1,12 @@
 import React from "react";
-import logo from "../../../../images/logo.png";
+import { useNavigate, useLocation } from "react-router-dom";
+import cn from "classnames";
+import logo from "../../../../images/logo.jpg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   return (
     <>
       <footer className={styles.footerSection}>
@@ -13,16 +17,63 @@ const Footer = () => {
           <h4> Quick Links</h4>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a
+                className={cn(location?.pathname === "/" && styles.activeLink)}
+                onClick={() => navigate("/")}
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#home">About Us</a>
+              <a
+                className={cn(
+                  location?.pathname === "/aboutus" && styles.activeLink
+                )}
+                onClick={() => navigate("/aboutus")}
+              >
+                About Us
+              </a>
             </li>
             <li>
-              <a href="#home">Gallery</a>
+              <a
+                className={cn(
+                  location?.pathname === "/gallery" && styles.activeLink
+                )}
+                onClick={() => navigate("/gallery")}
+              >
+                Gallery
+              </a>
             </li>
             <li>
-              <a href="#home">Contact Us</a>
+              <a
+                className={cn(
+                  location?.pathname === "/contactus" && styles.activeLink
+                )}
+                onClick={() => navigate("/contactus")}
+              >
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a
+                className={cn(
+                  location?.pathname === "/testimonials" && styles.activeLink
+                )}
+                onClick={() => navigate("/testimonials")}
+              >
+                Testimonials
+              </a>
+            </li>
+
+            <li>
+              <a
+                className={cn(
+                  location?.pathname === "/quiz" && styles.activeLink
+                )}
+                onClick={() => navigate("/quiz")}
+              >
+                Quiz
+              </a>
             </li>
           </ul>
         </nav>

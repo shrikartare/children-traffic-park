@@ -13,32 +13,32 @@ const Testimonials = () => {
     slidesToScroll: 1,
     autoplay: false,
     responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1,
-            infinite: true,
-            dots: true
-          }
-        }
-      ]
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
   };
   return (
     <div className={styles.feedbackSection}>
       <h2>Testimonials</h2>
       <div className={styles.dividerLine} />
-      <h3>What our clients  Say</h3>
+      <h3>What our clients Say</h3>
       <div className={styles.feedbackContainer}>
         <Slider {...settings}>
           <div className={styles.feedbackInfo}>
@@ -64,7 +64,6 @@ const Testimonials = () => {
               enjoyable!
             </p>
             <p className={styles.circle}>
-              {/* <img></img> */}
               <span>AP</span>
             </p>
             <p>Mr.Akash Parikh</p>
@@ -76,7 +75,6 @@ const Testimonials = () => {
               patiently and answer to their queires and takes quizes at the end.
             </p>
             <p className={styles.circle}>
-              {/* <img></img> */}
               <span>AP</span>
             </p>
             <p>Mr.John Doe</p>
