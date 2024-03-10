@@ -38,7 +38,6 @@ const ContactUsView = () => {
         <div className={styles.mapContainer}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14764.935739797915!2d73.2044524!3d22.3069908!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf5de1e080bd%3A0x7c4e3d5b8fca59ee!2sKarelibaug%20Police%20Station!5e0!3m2!1sen!2sin!4v1709997048224!5m2!1sen!2sin"
-            loading="lazy"
             width={"100%"}
             height={350}
           ></iframe>

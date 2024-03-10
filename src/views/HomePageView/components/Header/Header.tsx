@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <div className={styles.headerContainer}>
         <div className={styles.siteLogo}>
-          <a href="/" onClick={() => navigate("/")}>
+          <a onClick={() => navigate("/")}>
             <img src={logo} alt="Logo" />
           </a>
         </div>
@@ -28,6 +28,12 @@ const Header = () => {
             </li>
             <li>
               <a onClick={() => navigate("/contactus")}>contact us</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/quiz")}>Quiz</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/testimonials")}>Testimonials</a>
             </li>
           </ul>
         </nav>
@@ -63,6 +69,12 @@ const Header = () => {
             </li>
             <li>
               <a onClick={() => navigate("/contactus")}>contact us</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/quiz")}>Quiz</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/testimonials")}>Testimonials</a>
             </li>
           </ul>
         </nav>

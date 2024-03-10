@@ -19,7 +19,7 @@ const Banner = () => {
     <div className={styles.bannerInfo}>
       <div className={styles.bannerHeader}>
         Welcome to <span>traffic park !</span> <br />
-        Journey into safety
+        Journey into road safety
       </div>
       <span>
         <br />

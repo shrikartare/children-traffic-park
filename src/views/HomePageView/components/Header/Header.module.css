@@ -5,6 +5,9 @@ header {
   z-index: 99;
   background-color: transparent;
   top: 0;
+  a {
+    cursor: pointer;
+  }
 }
 
 .siteLogo {
@@ -13,7 +16,7 @@ header {
     height: 139px;
     @media (max-width: 768px) {
       height: 100px;
-      width: auto;
+      width: 90px;
     }
   }
 }

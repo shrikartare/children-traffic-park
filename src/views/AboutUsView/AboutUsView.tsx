@@ -10,7 +10,7 @@ const AboutUsView = () => {
       <Header />
       <div className={styles.aboutUsView}>
         <div className={styles.aboutUsHeadLine}>
-        <h2 >About Us</h2>
+          <h2>About Us</h2>
         </div>
         <div className={styles.aboutUsInfo}>
           <div className={styles.aboutUsImage}>
