@@ -8,7 +8,6 @@ const Header = () => {
   const navigate = useNavigate();
   const [isHamburgerCloseIcon, setHamburgerCloseIcon] = useState(false);
   const location = useLocation();
-  console.log("location", location?.pathname);
   return (
     <header>
       <div className={styles.headerContainer}>

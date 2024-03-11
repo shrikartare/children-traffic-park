@@ -30,7 +30,7 @@ const ContactUsView = () => {
               <i className={classNames("fa fa-map-marker")}></i>
             </div>
             <p>
-              Children Traffic Park, Near Karelibaug Police Station, Karelibaug,
+              Traffic office, Karelibaug
               Vadodara-390005
             </p>
           </div>

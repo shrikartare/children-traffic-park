@@ -11,7 +11,9 @@ const Footer = () => {
     <>
       <footer className={styles.footerSection}>
         <div className={styles.logo}>
-          <img src={logo} alt="Logo" />
+          <a onClick={() => navigate("/")}>
+            <img src={logo} alt="Logo" />
+          </a>
         </div>
         <nav className={styles.quickLinks}>
           <h4> Quick Links</h4>

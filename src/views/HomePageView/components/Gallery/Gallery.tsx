@@ -8,7 +8,11 @@ const importAll = (r: any) => {
 };
 
 const galleryImages = importAll(
-  require.context("../../../../images", false, /\.(png|jpe?g|svg)$/)
+  require.context(
+    "../../../../images/GalleryThumbnail",
+    false,
+    /\.(png|jpe?g|svg)$/
+  )
 );
 
 const Gallery = () => {

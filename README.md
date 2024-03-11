@@ -55,3 +55,10 @@ I had couple of questions before going forward
 
 background-color: #0a0a0a;
 opacity: 0.5;
+
+
+
+
+Take more photos of traffic park. Especially banyan tree and nursery.
+
+Take photo of the team those who worked on traffic park project.

@@ -29,7 +29,10 @@
 .quizQuestion {
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  width: 70%;
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+  }
   p {
     color: #14195d;
     font-size: 25px;
@@ -46,15 +49,17 @@
   margin: 2%;
   cursor: pointer;
   position: relative;
+  color: #14195d;
+  font-weight: 600;
   .correctIcon {
-    font-size: 30px;
+    font-size: 28px;
     color: green;
     position: absolute;
     right: 6px;
     top: 12px;
   }
   .wrongIcon {
-    font-size: 30px;
+    font-size: 28px;
     color: red;
     position: absolute;
     right: 6px;
@@ -107,4 +112,28 @@
 
 .buttonContainer {
   text-align: center;
+}
+
+.correctLabel {
+  color: #14195d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 30px 0px;
+  i {
+    padding-left: 10px;
+  }
+}
+
+.inCorrectLabel {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 30px 0px;
+  i {
+    padding-left: 10px;
+  }
 }

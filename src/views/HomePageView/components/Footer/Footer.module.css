@@ -97,6 +97,9 @@
     width: 233px;
     height: 300px;
   }
+  a {
+    cursor: pointer;
+  }
   @media only screen and (max-width: 768px) {
     flex-basis: 100%;
     img {

@@ -34,10 +34,12 @@ const QuizView = () => {
 
         <div className={styles.quizQuestion}>
           <p>
+            Question ({currentQuestionIndex + 1}/{questions?.length})
+          </p>
+          <p>
             {questions[currentQuestionIndex].id}.&nbsp;
             {questions[currentQuestionIndex]?.question}
             &nbsp;&nbsp;&nbsp;
-            {/* {currentQuestionIndex+1}/{questions?.length} */}
           </p>
           <img src={logo} height="100" width="100" alt="trafficImage" />
           <div className={styles.optionContainer}>
@@ -79,6 +81,22 @@ const QuizView = () => {
             })}
           </div>
         </div>
+
+        {optionSelected === questions[currentQuestionIndex]?.correctAnswer &&
+          optionSelected && (
+            <p className={styles.correctLabel}>
+              Answer is correct
+              <i className={cn("fa fa-check")} aria-hidden="true"></i>{" "}
+            </p>
+          )}
+
+        {optionSelected !== questions[currentQuestionIndex]?.correctAnswer &&
+          optionSelected && (
+            <p className={styles.inCorrectLabel}>
+              Answer is wrong
+              <i className={cn("fa fa-times")} aria-hidden="true"></i>{" "}
+            </p>
+          )}
         <div className={styles.buttonContainer}>
           {currentQuestionIndex > 0 && (
             <button className={styles.nextBtn} onClick={onPreviousClick}>

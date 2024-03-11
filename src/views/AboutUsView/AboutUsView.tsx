@@ -22,11 +22,15 @@ const AboutUsView = () => {
             <div className={styles.dividerLine} />
             <p>
               Welcome to Traffic Park, a vibrant space dedicated to shaping the
-              future of road safety education. Established by a team of
-              passionate traffic police officers, our park is more than just an
+              future of road safety education.Our park is more than just an
               educational hub – it’s an immersive experience designed to instill
               a deep understanding of road safety in the hearts and minds of
               young learners.
+            </p>
+            <p>
+              Also to make people aware about environment and increase awarness
+              about banyan tree in Vadodara city (Vadnagri) , we have also
+              developed a nursery which showcases 22 types of plants.
             </p>
             <p>
               Our park features realistic signals, interactive exhibits, and
@@ -37,6 +41,22 @@ const AboutUsView = () => {
             </p>
           </div>
         </div>
+        <div className={styles.specialThanks}>
+          <h3>Special Thanks</h3>
+          <ul>
+            <li>Police Commissioner J.I. Vasava (Traffic Branch)</li>
+            <li>Vadodara Traffic Police</li>
+            <li>Vadodara City Traffic Education Trust</li>
+          </ul>
+        </div>
+        <div className={styles.owners}>
+          <ul>
+            <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
+            <li>Manoj Ninama (Additional Police Commissioner)</li>
+            <li>Anupam Sign Gehlot (Police Commissioner)</li>
+          </ul>
+        </div>
+        <div className={styles.clear}></div>
       </div>
       <Footer />
     </>

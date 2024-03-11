@@ -49,6 +49,8 @@
 
 .welcomeContainer h2 {
   margin-bottom: 5px;
+  margin-top: 0px;
+  color: #14195d;
 }
 .aboutUsHeadLine {
   background-color: #f2f2f2;
@@ -61,4 +63,14 @@
     position: relative;
     top: 30%;
   }
+}
+
+.specialThanks{
+  float:left
+}
+.owners{
+  float:right
+}
+.clear{
+  clear: both;
 }

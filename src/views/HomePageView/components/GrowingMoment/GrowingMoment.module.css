@@ -3,7 +3,6 @@
     url("../../../../images/img02.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
   background-color: rgba(20, 25, 93, 0.84);
   opacity: 0.8;
@@ -13,7 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  p{
+  background-size: 100% 100%;
+  p {
     color: rgba(255, 255, 255, 2.6);
     font-weight: 500;
   }
