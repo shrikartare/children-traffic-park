@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className={styles.aboutUs}>
       <div className={styles.infoSection}>
-        <h5>About Us</h5>
+        {/* <h5>About Us</h5> */}
         <h2>Welcome to traffic park</h2>
         <div className={styles.dividerLine} />
         <div className={styles.videoSection}>
@@ -26,12 +26,6 @@ const AboutUs = () => {
           educational hub – it's an immersive experience designed to instill a
           deep understanding of road safety in the hearts and minds of young
           learners.
-        </p>
-
-        <p>
-          Also to make people aware about environment and increase awarness
-          about banyan tree in Vadodara city (Vadnagri), we have also developed
-          a nursery which showcases many types of plants.
         </p>
         <p>
           Our park features realistic signals, interactive exhibits, and

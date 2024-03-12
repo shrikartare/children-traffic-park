@@ -1,15 +1,15 @@
 .aboutUs {
   display: flex;
   background-color: #f4f4f4;
-  padding: 30px 30px 80px 30px;
+  padding: 10px 30px 80px 30px;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 30px 10px 80px 10px;
+    padding: 30px 10px 10px 10px;
   }
 
   .infoSection {
     flex-basis: 46%;
-    margin-top: 20px;
+    margin-top: 10px;
     @media (max-width: 768px) {
       flex-basis: 100%;
     }
@@ -37,6 +37,7 @@
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 5px;
+    margin-top: 30px;
   }
   p {
     font-size: 19px;
@@ -57,7 +58,7 @@
 
 .aboutUsDetail {
   margin-top: 128px;
-  flex-basis:50%;
+  flex-basis: 50%;
   padding-left: 30px;
   @media (max-width: 768px) {
     margin-top: 0px;
