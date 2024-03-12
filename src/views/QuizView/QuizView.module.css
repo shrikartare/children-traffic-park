@@ -52,18 +52,18 @@
   color: #14195d;
   font-weight: 600;
   .correctIcon {
-    font-size: 28px;
+    font-size: 21px;
     color: green;
     position: absolute;
     right: 6px;
-    top: 12px;
+    top: 16px;
   }
   .wrongIcon {
-    font-size: 28px;
+    font-size: 20px;
     color: red;
     position: absolute;
     right: 6px;
-    top: 12px;
+    top: 16px;
   }
 }
 
@@ -118,7 +118,7 @@
   color: #14195d;
   text-align: center;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   margin: 30px 0px;
   i {
@@ -130,7 +130,7 @@
   color: red;
   text-align: center;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   margin: 30px 0px;
   i {

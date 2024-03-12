@@ -4,6 +4,7 @@ export const questions = [
     question: "What does red signal indicate?",
     options: ["Stop", "Run", "Walk", "Fly"],
     correctAnswer: "Stop",
+    imageName:"img01"
   },
   {
     id: 2,

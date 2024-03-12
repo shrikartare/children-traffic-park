@@ -11,12 +11,15 @@ const GrowingMoment = () => {
         <div className={styles.growingMomentSection}>
           <h2>JOIN THE GROWING MOMENT</h2>
           <p>
-            Over 1,000+ Children have already experienced the enriching journey
-            at traffic park, located in karelibaug police station. Be part
-            of the change, schedule your visit now and empower your students
-            with the knowledge of road safety.
+            Over 1,000+ children have already experienced the enriching journey
+            at traffic park, located in karelibaug. Be part of the change,
+            schedule your visit now and empower your students with the knowledge
+            of road safety.
           </p>
-          <button className={styles.visitTrafficParkBtn} onClick={() => navigate("/contactus")}>
+          <button
+            className={styles.visitTrafficParkBtn}
+            onClick={() => navigate("/contactus")}
+          >
             Visit Traffic Park
             <i
               className={classNames(

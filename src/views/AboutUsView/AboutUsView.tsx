@@ -39,23 +39,30 @@ const AboutUsView = () => {
               memorable adventure for every child, laying the foundation for
               responsible road behavior.
             </p>
+            <h3 className={styles.owners}>Traffic Park Team</h3>
+            <ul>
+              <li>J.I. Vasava (Police Commissioner,Traffic Branch)</li>
+              <li>Vadodara Traffic Police</li>
+              <li>Vadodara City Traffic Education Trust</li>
+              <li>Anupam Sign Gehlot (Police Commissioner)</li>
+              <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
+              <li>Manoj Ninama (Additional Police Commissioner)</li>
+            </ul>
           </div>
         </div>
-        <div className={styles.specialThanks}>
-          <h3>Special Thanks</h3>
-          <ul>
-            <li>Police Commissioner J.I. Vasava (Traffic Branch)</li>
-            <li>Vadodara Traffic Police</li>
-            <li>Vadodara City Traffic Education Trust</li>
-          </ul>
-        </div>
-        <div className={styles.owners}>
-          <ul>
-            <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
-            <li>Manoj Ninama (Additional Police Commissioner)</li>
-            <li>Anupam Sign Gehlot (Police Commissioner)</li>
-          </ul>
-        </div>
+        {/* <div className={styles.owners}>
+          <h3>Traffic Park Team</h3>
+          <div>
+            <ul>
+              <li>J.I. Vasava(Police Commissioner,Traffic Branch)</li>
+              <li>Anupam Sign Gehlot (Police Commissioner)</li>
+              <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
+              <li>Manoj Ninama (Additional Police Commissioner)</li>
+              <li>Vadodara Traffic Police</li>
+              <li>Vadodara City Traffic Education Trust</li>
+            </ul>
+          </div>
+        </div> */}
         <div className={styles.clear}></div>
       </div>
       <Footer />

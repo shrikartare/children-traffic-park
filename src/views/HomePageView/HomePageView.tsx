@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import GrowingMoment from "./components/GrowingMoment";
 import Testimonials from "./components/Testimonials";
+import Nursery from "./components/Nursery";
 
 const HomeComponent = () => {
   return (
@@ -13,6 +14,7 @@ const HomeComponent = () => {
       <Header />
       <Banner />
       <AboutUs />
+      <Nursery />
       <GrowingMoment />
       <Gallery />
       <Testimonials />

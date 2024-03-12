@@ -8,24 +8,26 @@
   }
 
   .infoSection {
-    flex-basis: 60%;
+    flex-basis: 46%;
+    margin-top: 20px;
     @media (max-width: 768px) {
       flex-basis: 100%;
     }
   }
   .videoSection {
-    flex-basis: 40%;
+    flex-basis: 50%;
     margin-top: 4%;
-    padding-left: 30px;
     @media (max-width: 768px) {
       flex-basis: 100%;
       padding-left: 0px;
     }
   }
   h5 {
-    color: #bfbfbf;
+    color: rgba(10, 10, 10, 0.6);
     text-align: left;
     font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
     text-transform: uppercase;
   }
   h2 {
@@ -34,19 +36,30 @@
     line-height: 45px;
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 5px;
   }
   p {
-    font-size: 17px;
-    font-weight: 400;
-    color: rgba(10, 10, 10, 0.6);
+    font-size: 19px;
+    font-weight: 600;
+    color: #666666;
+    text-align: justify;
   }
 }
 .dividerLine {
   margin-top: 10px;
-  width: 250px;
+  width: 350px;
   height: 3px;
   margin-bottom: 10px;
   transform: scale(1, 1);
   visibility: visible;
   background-color: #14195d;
+}
+
+.aboutUsDetail {
+  margin-top: 128px;
+  flex-basis:50%;
+  padding-left: 30px;
+  @media (max-width: 768px) {
+    margin-top: 0px;
+  }
 }

@@ -24,12 +24,18 @@ const QuizView = () => {
     setOptionSelected(opt);
   };
 
+  const getOptionIndex = (index: number) => {
+    if (index === 0) return "A";
+    else if (index === 1) return "B";
+    else if (index === 2) return "C";
+    else if (index === 3) return "D";
+  };
   return (
     <>
       <Header />
       <div className={styles.quizContainer}>
         <div className={styles.quizHeadLine}>
-          <h2>Traffic/Road Quiz</h2>
+          <h2>Traffic Quiz</h2>
         </div>
 
         <div className={styles.quizQuestion}>
@@ -43,7 +49,7 @@ const QuizView = () => {
           </p>
           <img src={logo} height="100" width="100" alt="trafficImage" />
           <div className={styles.optionContainer}>
-            {questions[currentQuestionIndex].options.map((opt) => {
+            {questions[currentQuestionIndex].options.map((opt, index) => {
               const isCorrectAnsSelected =
                 optionSelected ===
                 questions[currentQuestionIndex]?.correctAnswer;
@@ -62,6 +68,7 @@ const QuizView = () => {
                   )}
                   onClick={(event) => onOptionClick(event, opt)}
                 >
+                  {getOptionIndex(index)}. &nbsp;
                   {opt}
                   {opt === questions[currentQuestionIndex]?.correctAnswer &&
                     optionSelected && (
@@ -85,7 +92,7 @@ const QuizView = () => {
         {optionSelected === questions[currentQuestionIndex]?.correctAnswer &&
           optionSelected && (
             <p className={styles.correctLabel}>
-              Answer is correct
+              &nbsp; {optionSelected} is correct
               <i className={cn("fa fa-check")} aria-hidden="true"></i>{" "}
             </p>
           )}
@@ -93,24 +100,20 @@ const QuizView = () => {
         {optionSelected !== questions[currentQuestionIndex]?.correctAnswer &&
           optionSelected && (
             <p className={styles.inCorrectLabel}>
-              Answer is wrong
-              <i className={cn("fa fa-times")} aria-hidden="true"></i>{" "}
+              &nbsp;{optionSelected} is incorrect
+              <i className={cn("fa fa-times")} aria-hidden="true"></i>
             </p>
           )}
         <div className={styles.buttonContainer}>
           {currentQuestionIndex > 0 && (
             <button className={styles.nextBtn} onClick={onPreviousClick}>
               Previous
-              {/* <i className={cn("fa fa-long-arrow-left", styles.arrowRight)}></i> */}
             </button>
           )}
 
           {optionSelected && currentQuestionIndex < questions.length - 1 && (
             <button className={styles.nextBtn} onClick={onNextClick}>
               Next
-              {/* <i
-                className={cn("fa fa-long-arrow-right", styles.arrowRight)}
-              ></i> */}
             </button>
           )}
         </div>

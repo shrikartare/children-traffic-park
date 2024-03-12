@@ -50,6 +50,9 @@
 .growingMomentSection {
   text-align: center;
   flex-basis: 50%;
+  p{
+    text-align: justify;
+  }
 }
 
 @media only screen and (max-width: 768px) {
