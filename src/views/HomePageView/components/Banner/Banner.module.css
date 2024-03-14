@@ -15,24 +15,10 @@
     url("../../../../images/1708930666951.jpg");
   background-size: cover;
   display: inline-block;
+  background-position-y: 35%;
   background-repeat: no-repeat;
   @media only screen and (max-width: 768px) {
-    background-size: 100% 100%;
-    height: auto;
-  }
-}
-
-.bannerImg2 {
-  height: 500px;
-  max-width: 100%;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../../../images/img01.jpeg");
-  background-size: cover;
-  display: inline-block;
-  background-repeat: no-repeat;
-  @media only screen and (max-width: 768px) {
-    background-size: 100% 100%;
+    background-position-x: 60%;
     height: auto;
   }
 }
@@ -46,7 +32,6 @@
   }
   .bannerHeader {
     font-size: 35px;
-    font-weight: 600;
     text-transform: uppercase;
     line-height: 69px;
     word-wrap: break-word;
@@ -63,7 +48,6 @@
   }
   .exploreMoreBtn {
     position: relative;
-    font-family: redhatdisplay;
     background-color: #14195d;
     display: block;
     margin-top: 30px;
@@ -71,7 +55,6 @@
     border-radius: 27px;
     color: white;
     font-size: 14px;
-    font-weight: 600;
     text-transform: uppercase;
     line-height: 24px;
     letter-spacing: 2px;
@@ -95,9 +78,4 @@
     right: -28px;
     top: 6px;
   }
-}
-
-.bannerContainer {
-  min-height: 0;
-  min-width: 0;
 }

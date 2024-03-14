@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
-import logo from "../../../../images/logo.jpg";
+import logo from "../../../../images/Logo/logo.jpg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

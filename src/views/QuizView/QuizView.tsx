@@ -5,8 +5,22 @@ import styles from "./QuizView.module.css";
 
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
-import logo from "../../images/logo.jpg";
 
+// const quizImages = require.context(
+//   "../../images/quiz",
+//   false,
+//   /\.(png|jpe?g|svg)$/
+// );
+
+const importAll = (r: any) => {
+  return r.keys().map(r);
+};
+
+const quizImages = importAll(
+  require.context("../../images/quiz/", false, /\.(png|jpe?g|svg|jpg)$/)
+);
+
+console.log("quizImages", quizImages);
 const QuizView = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [optionSelected, setOptionSelected] = useState("");
@@ -30,6 +44,15 @@ const QuizView = () => {
     else if (index === 2) return "C";
     else if (index === 3) return "D";
   };
+
+  const getQuestionImage = () => {
+    const currentQuestion = questions[currentQuestionIndex];
+    let currindex = quizImages.findIndex((imgName: string) =>
+      imgName.includes(currentQuestion?.imageName || "")
+    );
+
+    return quizImages[currindex];
+  };
   return (
     <>
       <Header />
@@ -47,7 +70,12 @@ const QuizView = () => {
             {questions[currentQuestionIndex]?.question}
             &nbsp;&nbsp;&nbsp;
           </p>
-          <img src={logo} height="100" width="100" alt="trafficImage" />
+          <img
+            src={getQuestionImage()}
+            height="100"
+            width="100"
+            alt="trafficImage"
+          />
           <div className={styles.optionContainer}>
             {questions[currentQuestionIndex].options.map((opt, index) => {
               const isCorrectAnsSelected =
@@ -68,7 +96,7 @@ const QuizView = () => {
                   )}
                   onClick={(event) => onOptionClick(event, opt)}
                 >
-                  {getOptionIndex(index)}. &nbsp;
+                  {getOptionIndex(index)}.&nbsp;
                   {opt}
                   {opt === questions[currentQuestionIndex]?.correctAnswer &&
                     optionSelected && (

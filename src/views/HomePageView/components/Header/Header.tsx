@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
 import styles from "./Header.module.css";
-import logo from "../../../../images/logo.jpg";
+import logo from "../../../../images/Logo/logo.jpg";
 
 const Header = () => {
   const navigate = useNavigate();

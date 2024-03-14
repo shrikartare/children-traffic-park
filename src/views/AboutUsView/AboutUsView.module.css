@@ -72,6 +72,11 @@
 }
 .owners {
   color: #14195d;
-  font-weight: 700;
   text-decoration: underline;
+}
+
+.welcomeContainer li {
+  color: #666666;
+  font-weight: 600;
+  letter-spacing: 1px;
 }

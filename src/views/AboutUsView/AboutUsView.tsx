@@ -41,12 +41,12 @@ const AboutUsView = () => {
             </p>
             <h3 className={styles.owners}>Traffic Park Team</h3>
             <ul>
-              <li>J.I. Vasava (Police Commissioner,Traffic Branch)</li>
+              <li>J.I. Vasava &nbsp;(Police Commissioner,Traffic Branch)</li>
               <li>Vadodara Traffic Police</li>
               <li>Vadodara City Traffic Education Trust</li>
-              <li>Anupam Sign Gehlot (Police Commissioner)</li>
-              <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
-              <li>Manoj Ninama (Additional Police Commissioner)</li>
+              <li>Anupam Sign Gehlot &nbsp; (Police Commissioner)</li>
+              <li>Jyoti Pankaj Patel &nbsp; (Deputy Police Commissioner)</li>
+              <li>Manoj Ninama &nbsp; (Additional Police Commissioner)</li>
             </ul>
           </div>
         </div>

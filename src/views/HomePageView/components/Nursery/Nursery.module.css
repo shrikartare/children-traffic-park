@@ -12,11 +12,12 @@
 }
 
 .nurseryInfo {
-  font-size: 19px;
-  margin: 40px auto;
-  color: #666666;
+  margin: 20px auto 50px auto;
   text-align: justify;
   width: 78%;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(10, 10, 10, 0.6);
 }
 
 .nurseryHeadLine {
