@@ -21,11 +21,11 @@ const AboutUs = () => {
 
       <div className={styles.aboutUsDetail}>
         <p>
-          Welcome to Traffic Park, a vibrant space dedicated to shaping the
-          future of road safety education.Our park is more than just an
-          educational hub – it's an immersive experience designed to instill a
-          deep understanding of road safety in the hearts and minds of young
-          learners.
+          Welcome to Children Traffic Park founded in 31/01/2024, a vibrant
+          space dedicated to shaping the future of road safety education.Our
+          park is more than just an educational hub – it's an immersive
+          experience designed to instill a deep understanding of road safety in
+          the hearts and minds of young learners.
         </p>
         <p>
           Our park features realistic signals, interactive exhibits, and

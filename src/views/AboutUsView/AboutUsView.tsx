@@ -18,7 +18,7 @@ const AboutUsView = () => {
           </div>
 
           <div className={styles.welcomeContainer}>
-            <h2>WELCOME TO TRAFFIC PARK</h2>
+            <h2>CHILDREN TRAFFIC PARK</h2>
             <div className={styles.dividerLine} />
             <p>
               Welcome to Traffic Park, a vibrant space dedicated to shaping the
@@ -41,12 +41,15 @@ const AboutUsView = () => {
             </p>
             <h3 className={styles.owners}>Traffic Park Team</h3>
             <ul>
-              <li>J.I. Vasava &nbsp;(Police Commissioner,Traffic Branch)</li>
-              <li>Vadodara Traffic Police</li>
-              <li>Vadodara City Traffic Education Trust</li>
               <li>Anupam Sign Gehlot &nbsp; (Police Commissioner)</li>
               <li>Jyoti Pankaj Patel &nbsp; (Deputy Police Commissioner)</li>
               <li>Manoj Ninama &nbsp; (Additional Police Commissioner)</li>
+              <li>
+                J.I. Vasava &nbsp;(Additional Police Commissioner,Traffic
+                Branch)
+              </li>
+              <li>Vadodara Traffic Police</li>
+              <li>Vadodara City Traffic Education Trust</li>
             </ul>
           </div>
         </div>

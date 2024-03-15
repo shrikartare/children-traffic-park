@@ -7,6 +7,10 @@
   float: left;
 }
 
+.bannerSubtext{
+  letter-spacing: 2px;
+}
+
 .bannerImg1 {
   height: 500px;
   max-width: 100%;
