@@ -70,12 +70,15 @@ const QuizView = () => {
             {questions[currentQuestionIndex]?.question}
             &nbsp;&nbsp;&nbsp;
           </p>
-          <img
-            src={getQuestionImage()}
-            height="100"
-            width="100"
-            alt="trafficImage"
-          />
+          {questions[currentQuestionIndex].imageName && (
+            <img
+              src={getQuestionImage()}
+              height="100"
+              width="100"
+              alt="trafficImage"
+            />
+          )}
+
           <div className={styles.optionContainer}>
             {questions[currentQuestionIndex].options.map((opt, index) => {
               const isCorrectAnsSelected =

@@ -16,27 +16,48 @@
 }
 
 .feedbackContainer {
-  padding: 0px 6% 0px 6%;
-  margin: 2% 0px 6% 0px;
+  margin: 0px auto;
+  width: 35%;
+  @media only screen and (max-width: 700px) {
+    width: 90% !important;
+  }
 }
 
 .feedbackSection {
   background-color: #f4f4f4;
   padding: 10px;
+  padding-bottom: 60px;
 }
+
 .feedbackInfo {
-  background-color: #019d4a;
-  border-radius: 30px;
+  background-color: #14195d;
+  border-radius: 10px;
   color: white;
-  /* font-weight: 500; */
   text-align: center;
-  width: 90% !important;
+  width: 100% !important;
   height: auto;
-  max-height: 493px;
+  min-height:160px;
   letter-spacing: 1px;
-  padding: 12px;
+  max-height: 250px;
+  position: relative;
+  margin-bottom: 70px;
+  min-height: 150px;
   @media only screen and (max-width: 700px) {
     width: 100% !important;
+  }
+  .reviewerName {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(10, 10, 10, 0.6);
+    text-align: justify;
+    position: absolute;
+    bottom: -59px;
+    right: 70px;
+    color: rgba(10, 10, 10, 0.6);
+    text-wrap: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    width: 66%;
   }
 }
 
@@ -53,4 +74,18 @@
     padding-top: 13px;
     display: inline-block;
   }
+}
+
+.bottomArrow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  bottom: -21px;
+  border-top: 22px solid #14195d;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
 }

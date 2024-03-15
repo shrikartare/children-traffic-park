@@ -19,4 +19,29 @@ export const questions = [
     correctAnswer: "Stop",
     imageName: "stop",
   },
+
+  {
+    id: 3,
+    question:
+      " When a vehicle is involved in an accident causing injury to any person",
+    options: [
+      "Take the vehicle to the nearest police station and report the accident",
+      "Stop the vehicle and report to the police station",
+      "Take all reasonable steps to secure medical attention to the injured and report to the nearest police station within 24 hrs",
+      "None of the above",
+    ],
+    correctAnswer:
+      "Take all reasonable steps to secure medical attention to the injured and report to the nearest police station within 24 hrs",
+  },
+  {
+    id: 4,
+    question: "Zebra lines are meant for.",
+    options: [
+      "Stopping the vehicle",
+      "Pedestrians crossing",
+      "For giving preference to vehicle",
+      "None of the above",
+    ],
+    correctAnswer: "For giving preference to vehicle",
+  },
 ];

@@ -9,7 +9,7 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
     responsive: [
@@ -49,11 +49,13 @@ const Testimonials = () => {
               recommend Traffic Park to schools looking for a comprehensive and
               engaging road safety program.
             </p>
-            <p className={styles.circle}>
+            <div className={styles.bottomArrow}></div>
+            <div className={styles.reviewerName}>Mr.Tim Smith (FNS)</div>
+            {/* <p className={styles.circle}>
               <span>ST</span>
             </p>
             <p>Mr.Shrikar Tare</p>
-            <p>Principal at New Era School</p>
+            <p>Principal at New Era School</p> */}
           </div>
           <div className={styles.feedbackInfo}>
             <p>
@@ -63,22 +65,30 @@ const Testimonials = () => {
               eyes. Kudos to the dedicated team for making learning so
               enjoyable!
             </p>
-            <p className={styles.circle}>
+            <div className={styles.bottomArrow}></div>
+            <div className={styles.reviewerName}>Mr.Hughes Smith (FNS)</div>
+            {/* <p className={styles.circle}>
               <span>AP</span>
             </p>
             <p>Mr.Akash Parikh</p>
-            <p>Principal at Navrachna School</p>
+            <p>Principal at Navrachna School</p> */}
           </div>
           <div className={styles.feedbackInfo}>
             <p>
               Traffic Park is awesome facility and policemen teach children
               patiently and answer to their queires and takes quizes at the end.
             </p>
-            <p className={styles.circle}>
+
+            <div className={styles.bottomArrow}></div>
+            <div className={styles.reviewerName}>
+              {" "}
+              Mr.John Doe (B.H.S)
+            </div>
+            {/* <p className={styles.circle}>
               <span>AP</span>
             </p>
             <p>Mr.John Doe</p>
-            <p>Teacher at Baroda High School</p>
+            <p>Teacher at Baroda High School</p> */}
           </div>
         </Slider>
       </div>
