@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/children-traffic-park/static/css/main.de96eefb.css",
-    "main.js": "/children-traffic-park/static/js/main.a5561977.js",
+    "main.js": "/children-traffic-park/static/js/main.e3ca8403.js",
     "static/js/453.c49f1ce5.chunk.js": "/children-traffic-park/static/js/453.c49f1ce5.chunk.js",
     "static/media/TrafficPoster_55png.png": "/children-traffic-park/static/media/TrafficPoster_55png.aa36ee784b7796ba1c19.png",
     "static/media/TrafficPark_poster_02.jpg": "/children-traffic-park/static/media/TrafficPark_poster_02.ab838e22734207e56add.jpg",
@@ -51,11 +51,11 @@
     "index.html": "/children-traffic-park/index.html",
     "static/media/stop.svg": "/children-traffic-park/static/media/stop.95f8fb05ed31a91d0a45.svg",
     "main.de96eefb.css.map": "/children-traffic-park/static/css/main.de96eefb.css.map",
-    "main.a5561977.js.map": "/children-traffic-park/static/js/main.a5561977.js.map",
+    "main.e3ca8403.js.map": "/children-traffic-park/static/js/main.e3ca8403.js.map",
     "453.c49f1ce5.chunk.js.map": "/children-traffic-park/static/js/453.c49f1ce5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de96eefb.css",
-    "static/js/main.a5561977.js"
+    "static/js/main.e3ca8403.js"
   ]
 }
