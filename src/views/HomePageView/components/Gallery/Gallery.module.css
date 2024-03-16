@@ -41,7 +41,7 @@
 
 .dividerLine {
   margin: 10px auto 20px auto;
-  width: 250px;
+  width: 180px;
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;

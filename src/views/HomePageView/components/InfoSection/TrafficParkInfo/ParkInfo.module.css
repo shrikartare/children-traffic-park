@@ -1,0 +1,73 @@
+.parkinfoImageGallery {
+  width: 100%;
+}
+
+.parkinfoImage {
+  height: 325px;
+  width: 100%;
+}
+
+.parkinfoInfo {
+  float:left;
+  width: 50%;
+  margin-left: 2%;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(10, 10, 10, 0.9);
+  @media (max-width: 768px) {
+    width: 100%;
+    /* margin-left: 0px; */
+  }
+  p{
+    margin:0px;
+    padding:0px;
+  }
+}
+
+.parkInfoImageWrapper{
+  width: 50%;
+}
+
+.parkinfoHeadLine {
+  font-size: 22px;
+  color: #14195d;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0px 2px 0px;
+}
+
+.dividerLine {
+  margin: 1px 10px 10px 0px;
+  width: 100px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #14195d;
+  margin:0 auto;
+}
+
+.parkinfoContainer {
+  padding: 30px 10px 40px 10px;
+  width: 100%;
+  @media (max-width: 768px) {
+    padding: 30px 0px 20px 0px;
+  }
+}
+
+.parkinfoImageContainer {
+  margin-top: 5px;
+  width:40%;
+  float:left;
+  margin-left: 62px;
+  @media (max-width: 768px) {
+    width: 99%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
