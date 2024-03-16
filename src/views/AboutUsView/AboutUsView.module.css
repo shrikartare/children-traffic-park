@@ -1,6 +1,6 @@
 .aboutUsView {
   p {
-    color: #666666;
+    color: rgb(10, 10, 10, 0.9);
     font-weight: 600;
   }
 }
@@ -76,7 +76,7 @@
 }
 
 .welcomeContainer li {
-  color: #666666;
+  color: rgb(10, 10, 10, 0.9);
   font-weight: 600;
   letter-spacing: 1px;
 }

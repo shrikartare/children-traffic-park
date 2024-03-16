@@ -42,7 +42,7 @@ const Testimonials = () => {
   const onClickReviewBtn = () => {
     window.open(
       "https://www.google.com/search?q=aatapi+wonderland&sca_esv=8b94fdf9c54254b4&rlz=1C1CHZN_enIN966IN966&ei=H3XtZZe9EM7i2roPosG20AU&gs_ssp=eJzj4tVP1zc0zDDKMDIvT841YLRSNagwtjRNSzE3TU4zN00zMbewtDKoMEpNMUxMNkhOtLA0NbOwSPMSTEwsSSzIVCjPz0tJLcpJzEsBAPbuFgg&oq=atapi+wondoerlan&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGF0YXBpIHdvbmRvZXJsYW4qAggAMhMQLhgNGK8BGMcBGLEDGIAEGI4FMgcQABiABBgNMgcQABiABBgNMgoQABiABBgNGLEDMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMiIQLhgNGK8BGMcBGLEDGIAEGI4FGJcFGNwEGN4EGOAE2AEDSKonUABY1x1wAXgBkAEAmAGGAqAB5B2qAQQyLTE2uAEDyAEA-AEBmAIRoALjHqgCEsICFBAAGIAEGOMEGOkEGOoCGLQC2AEBwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAsICCxAAGIAEGIoFGJECwgIREC4YgAQYsQMYgwEYxwEY0QPCAg4QLhiDARixAxiABBiKBcICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgIQEC4YgAQYigUYQxjHARivAcICEBAuGIAEGIoFGEMYxwEY0QPCAgoQLhiABBiKBRhDwgIREC4YgAQYsQMYxwEYrwEYjgXCAg0QABiABBiKBRhDGLEDwgILEC4YgAQYigUYsQPCAh8QLhiABBiKBRhDGMcBGK8BGJcFGNwEGN4EGOAE2AEDwgIXEC4YrwEYxwEYkQIYsQMYgAQYigUYjgXCAggQLhixAxiABMICDhAAGIAEGIoFGJECGLEDwgIOEC4YgAQYsQMYxwEYrwHCAhMQLhiABBiKBRhDGLEDGIMBGNQCwgImEC4YrwEYxwEYkQIYsQMYgAQYigUYjgUYlwUY3AQY3gQY4ATYAQPCAhMQLhhDGK8BGMcBGIAEGIoFGI4FwgIKEAAYgAQYigUYQ8ICBRAAGIAEwgIHEAAYgAQYCsICChAAGIAEGAoYsQPCAiIQLhhDGK8BGMcBGIAEGIoFGI4FGJcFGNwEGN4EGOAE2AEDwgIREC4YrwEYxwEYkgMYgAQYjgXCAggQABiABBjJA8ICCxAAGIAEGIoFGJIDwgIgEC4YrwEYxwEYkgMYgAQYjgUYlwUY3AQY3gQY4ATYAQPCAg4QLhivARjHARjJAxiABMICHRAuGK8BGMcBGMkDGIAEGJcFGNwEGN4EGOAE2AEDwgIaEC4YrwEYxwEYkQIYsQMYyQMYgAQYigUYjgXCAikQLhivARjHARiRAhixAxjJAxiABBiKBRiOBRiXBRjcBBjeBBjgBNgBA8ICEhAuGA0YrwEYxwEYgAQYjgUYCsICCRAAGIAEGA0YCsICIRAuGA0YrwEYxwEYgAQYjgUYChiXBRjcBBjeBBjgBNgBA5gDB7oGBAgBGAe6BgYIAhABGAq6BgYIAxABGBSSBwYxLjAuMTagB7nFAQ&sclient=gws-wiz-serp#lrd=0x395fd75cf75f4789:0x2ed1ac0ca895688f,3,,,,",
-      "_blank",
+      "_blank"
     );
   };
   return (
@@ -62,11 +62,10 @@ const Testimonials = () => {
                 recommend Traffic Park to schools looking for a comprehensive
                 and engaging road safety program.
               </p>
-              <p className={styles.circle}>
-                <span>ST</span>
-              </p>
-              <p>Mr.Shrikar Tare</p>
-              <p>Principal at New Era School</p>
+              <div className={styles.bottomArrow}></div>
+              <div className={styles.reviewerName}>
+                Shrikar Tare-Teacher(NavrachnaSchool)
+              </div>
             </div>
             <div className={styles.feedbackInfo}>
               <p>
@@ -76,11 +75,10 @@ const Testimonials = () => {
                 her eyes. Kudos to the dedicated team for making learning so
                 enjoyable!
               </p>
-              <p className={styles.circle}>
-                <span>AP</span>
-              </p>
-              <p>Mr.Akash Parikh</p>
-              <p>Principal at Navrachna School</p>
+              <div className={styles.bottomArrow}></div>
+              <div className={styles.reviewerName}>
+                Akash - Teacher(New Era School)
+              </div>
             </div>
             <div className={styles.feedbackInfo}>
               <p>
@@ -88,11 +86,11 @@ const Testimonials = () => {
                 patiently and answer to their queires and takes quizes at the
                 end.
               </p>
-              <p className={styles.circle}>
-                <span>AP</span>
-              </p>
-              <p>Mr.John Doe</p>
-              <p>Teacher at Baroda High School</p>
+
+              <div className={styles.bottomArrow}></div>
+              <div className={styles.reviewerName}>
+                Akash - Teacher(New Era School)
+              </div>
             </div>
           </Slider>
         </div>

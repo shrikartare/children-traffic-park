@@ -53,11 +53,6 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>Rahul-Principal</div>
-            {/* <p className={styles.circle}>
-              <span>ST</span>
-            </p>
-            <p>Mr.Shrikar Tare</p>
-            <p>Principal at New Era School</p> */}
           </div>
           <div className={styles.feedbackInfo}>
             <p>
@@ -68,12 +63,9 @@ const Testimonials = () => {
               enjoyable!
             </p>
             <div className={styles.bottomArrow}></div>
-            <div className={styles.reviewerName}>Akash-Teacher(New Era School)</div>
-            {/* <p className={styles.circle}>
-              <span>AP</span>
-            </p>
-            <p>Mr.Akash Parikh</p>
-            <p>Principal at Navrachna School</p> */}
+            <div className={styles.reviewerName}>
+              Akash-Teacher(New Era School)
+            </div>
           </div>
           <div className={styles.feedbackInfo}>
             <p>
@@ -83,14 +75,8 @@ const Testimonials = () => {
 
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              {" "}
               Shrikar Tare-Teacher(NavrachnaSchool)
             </div>
-            {/* <p className={styles.circle}>
-              <span>AP</span>
-            </p>
-            <p>Mr.John Doe</p>
-            <p>Teacher at Baroda High School</p> */}
           </div>
         </Slider>
       </div>

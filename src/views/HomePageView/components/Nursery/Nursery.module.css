@@ -17,7 +17,7 @@
   width: 78%;
   font-size: 17px;
   font-weight: 500;
-  color: rgba(10, 10, 10, 0.6);
+  color: rgba(10, 10, 10, 0.9);
   @media only screen and (max-width: 768px) {
     width: 95%;
   }

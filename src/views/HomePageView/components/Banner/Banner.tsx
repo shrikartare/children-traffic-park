@@ -2,9 +2,6 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 import classNames from "classnames";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import bannerImg from "../../../../images/1708930666951.jpg";
 import styles from "./Banner.module.css";
 
 const Banner = () => {

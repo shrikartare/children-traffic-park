@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import styles from "./Nursery.module.css";
 
 const importAll = (r: any) => {
@@ -29,9 +28,6 @@ const Nursery = () => {
             </div>
           );
         })}
-        {/* {thumbnailImages.map((img: string) => {
-          return <img className={styles.nurseryIMage} src={img} alt={"nursey1"} />;
-        })} */}
       </div>
       <div className={styles.nurseryInfo}>
         <p>
