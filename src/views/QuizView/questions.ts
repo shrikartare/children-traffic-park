@@ -43,5 +43,5 @@ export const questions = [
       "None of the above",
     ],
     correctAnswer: "For giving preference to vehicle",
-  },
+  }
 ];

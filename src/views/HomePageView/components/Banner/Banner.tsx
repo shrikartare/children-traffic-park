@@ -13,8 +13,8 @@ const Banner = () => {
   const BannerInfo = (
     <div className={styles.bannerInfo}>
       <div className={styles.bannerHeader}>
-        Welcome to children traffic park ! <br />
-        Journey into road safety
+        Welcome to <span>children traffic park !</span> <br />
+        Journey to road safety
       </div>
       <span className={styles.bannerSubtext}>
         <br />

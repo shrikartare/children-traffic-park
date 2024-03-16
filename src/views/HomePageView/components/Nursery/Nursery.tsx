@@ -35,12 +35,14 @@ const Nursery = () => {
       </div>
       <div className={styles.nurseryInfo}>
         <p>
-          To make people aware about nature and trees and also to increase
-          awarness about banyan trees in Vadodara (Vadnagri), we have also
-          developed a nursery which showcases 22 types of plants. Nurseries
-          promote environmental awareness and sustainability by offering native
-          and climate-appropriate plant species that support local ecosystems
-          and reduce water consumption.
+          To increase environmental awarness a nursey is developed, which has
+          many different types of plants and gives deep understanding to young
+          minds to understand importance of nature. Since vadodara is also known
+          as vadnagri,the banyan tree theme in our park helps to cultivate
+          importance of banyan tree and promote culture and heritage of our
+          city. Nurseries promote environmental awareness and sustainability by
+          offering native and climate-appropriate plant species that support
+          local ecosystems and reduce water consumption.
         </p>
       </div>
     </>

@@ -10,10 +10,10 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -22,6 +22,7 @@ const Testimonials = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
       {
@@ -32,6 +33,7 @@ const Testimonials = () => {
           initialSlide: 1,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
     ],
@@ -99,7 +101,7 @@ const Testimonials = () => {
           className={styles.writetestimonialBtn}
           onClick={onClickReviewBtn}
         >
-          Write a review
+          Share your feedback
         </button>
       </div>
       <Footer />

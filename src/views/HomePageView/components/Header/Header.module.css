@@ -113,3 +113,9 @@ header {
 .activeLink {
   color: #ffc235 !important;
 }
+
+.bookingBanner{
+  background-color: #ffc235;
+  height:40px;
+  text-align: center;
+}

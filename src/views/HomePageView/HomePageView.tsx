@@ -17,7 +17,7 @@ const HomeComponent = () => {
       <Nursery />
       <GrowingMoment />
       <Gallery />
-      <Testimonials />    
+      <Testimonials />
       <Footer />
     </>
   );

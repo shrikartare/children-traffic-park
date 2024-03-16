@@ -33,11 +33,9 @@
   h2 {
     font-size: 28px;
     color: #14195d;
-    /* line-height: 45px; */
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 5px;
-    /* margin-top: 30px; */
   }
   p {
     font-size: 17px;
@@ -48,7 +46,7 @@
 }
 .dividerLine {
   margin-top: 10px;
-  width: 350px;
+  width: 250px;
   height: 3px;
   margin-bottom: 10px;
   transform: scale(1, 1);

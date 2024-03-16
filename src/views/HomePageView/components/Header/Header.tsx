@@ -9,120 +9,127 @@ const Header = () => {
   const [isHamburgerCloseIcon, setHamburgerCloseIcon] = useState(false);
   const location = useLocation();
   return (
-    <header>
-      <div className={styles.headerContainer}>
-        <div className={styles.siteLogo}>
-          <a onClick={() => navigate("/")}>
-            <img src={logo} alt="Logo" />
-          </a>
+    <>
+      {/* <div className={styles.bookingBanner}>
+       For visiting traffic park please call at <a href="tel:6031112298">+91123456789</a>
+      </div> */}
+      <header>
+        <div className={styles.headerContainer}>
+          <div className={styles.siteLogo}>
+            <a onClick={() => navigate("/")}>
+              <img src={logo} alt="Logo" />
+            </a>
+          </div>
+          <nav className={styles.desktopMenu}>
+            <ul>
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/")}
+                >
+                  home
+                </a>
+              </li>
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/aboutus" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/aboutus")}
+                >
+                  about us
+                </a>
+              </li>
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/gallery" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/gallery")}
+                >
+                  gallery
+                </a>
+              </li>
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/contactus" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/contactus")}
+                >
+                  contact us
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/testimonials" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/testimonials")}
+                >
+                  Testimonials
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className={cn(
+                    location?.pathname === "/quiz" && styles.activeLink
+                  )}
+                  onClick={() => navigate("/quiz")}
+                >
+                  Quiz
+                </a>
+              </li>
+            </ul>
+          </nav>
+          {!isHamburgerCloseIcon ? (
+            <a
+              href="javascript:void(0);"
+              className={cn("icon", styles.hamburgerIcon)}
+              onClick={() => setHamburgerCloseIcon(!isHamburgerCloseIcon)}
+            >
+              <i className="fa fa-bars"></i>
+            </a>
+          ) : (
+            <a
+              href="javascript:void(0);"
+              className={cn("icon", styles.hamburgerIcon)}
+              onClick={() => setHamburgerCloseIcon(!isHamburgerCloseIcon)}
+            >
+              <i className="fa fa-close"></i>
+            </a>
+          )}
         </div>
-        <nav className={styles.desktopMenu}>
-          <ul>
-            <li>
-              <a
-                className={cn(location?.pathname === "/" && styles.activeLink)}
-                onClick={() => navigate("/")}
-              >
-                home
-              </a>
-            </li>
-            <li>
-              <a
-                className={cn(
-                  location?.pathname === "/aboutus" && styles.activeLink
-                )}
-                onClick={() => navigate("/aboutus")}
-              >
-                about us
-              </a>
-            </li>
-            <li>
-              <a
-                className={cn(
-                  location?.pathname === "/gallery" && styles.activeLink
-                )}
-                onClick={() => navigate("/gallery")}
-              >
-                gallery
-              </a>
-            </li>
-            <li>
-              <a
-                className={cn(
-                  location?.pathname === "/contactus" && styles.activeLink
-                )}
-                onClick={() => navigate("/contactus")}
-              >
-                contact us
-              </a>
-            </li>
-
-            <li>
-              <a
-                className={cn(
-                  location?.pathname === "/testimonials" && styles.activeLink
-                )}
-                onClick={() => navigate("/testimonials")}
-              >
-                Testimonials
-              </a>
-            </li>
-
-            <li>
-              <a
-                className={cn(
-                  location?.pathname === "/quiz" && styles.activeLink
-                )}
-                onClick={() => navigate("/quiz")}
-              >
-                Quiz
-              </a>
-            </li>
-          </ul>
-        </nav>
-        {!isHamburgerCloseIcon ? (
-          <a
-            href="javascript:void(0);"
-            className={cn("icon", styles.hamburgerIcon)}
-            onClick={() => setHamburgerCloseIcon(!isHamburgerCloseIcon)}
-          >
-            <i className="fa fa-bars"></i>
-          </a>
-        ) : (
-          <a
-            href="javascript:void(0);"
-            className={cn("icon", styles.hamburgerIcon)}
-            onClick={() => setHamburgerCloseIcon(!isHamburgerCloseIcon)}
-          >
-            <i className="fa fa-close"></i>
-          </a>
+        {isHamburgerCloseIcon && (
+          <nav className={styles.hamburgerMenu}>
+            <ul>
+              <li>
+                <a onClick={() => navigate("/")}>home</a>
+              </li>
+              <li>
+                <a onClick={() => navigate("/aboutus")}>about us</a>
+              </li>
+              <li>
+                <a onClick={() => navigate("/gallery")}>gallery</a>
+              </li>
+              <li>
+                <a onClick={() => navigate("/contactus")}>contact us</a>
+              </li>
+              <li>
+                <a onClick={() => navigate("/quiz")}>Quiz</a>
+              </li>
+              <li>
+                <a onClick={() => navigate("/testimonials")}>Testimonials</a>
+              </li>
+            </ul>
+          </nav>
         )}
-      </div>
-      {isHamburgerCloseIcon && (
-        <nav className={styles.hamburgerMenu}>
-          <ul>
-            <li>
-              <a onClick={() => navigate("/")}>home</a>
-            </li>
-            <li>
-              <a onClick={() => navigate("/aboutus")}>about us</a>
-            </li>
-            <li>
-              <a onClick={() => navigate("/gallery")}>gallery</a>
-            </li>
-            <li>
-              <a onClick={() => navigate("/contactus")}>contact us</a>
-            </li>
-            <li>
-              <a onClick={() => navigate("/quiz")}>Quiz</a>
-            </li>
-            <li>
-              <a onClick={() => navigate("/testimonials")}>Testimonials</a>
-            </li>
-          </ul>
-        </nav>
-      )}
-    </header>
+      </header>
+    </>
   );
 };
 

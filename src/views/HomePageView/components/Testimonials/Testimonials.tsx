@@ -8,10 +8,10 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -20,6 +20,7 @@ const Testimonials = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
       {
@@ -30,6 +31,7 @@ const Testimonials = () => {
           initialSlide: 1,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
     ],
@@ -50,7 +52,7 @@ const Testimonials = () => {
               engaging road safety program.
             </p>
             <div className={styles.bottomArrow}></div>
-            <div className={styles.reviewerName}>Mr.Tim Smith (FNS)</div>
+            <div className={styles.reviewerName}>Rahul-Principal</div>
             {/* <p className={styles.circle}>
               <span>ST</span>
             </p>
@@ -66,7 +68,7 @@ const Testimonials = () => {
               enjoyable!
             </p>
             <div className={styles.bottomArrow}></div>
-            <div className={styles.reviewerName}>Mr.Hughes Smith (FNS)</div>
+            <div className={styles.reviewerName}>Akash-Teacher(New Era School)</div>
             {/* <p className={styles.circle}>
               <span>AP</span>
             </p>
@@ -82,7 +84,7 @@ const Testimonials = () => {
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
               {" "}
-              Mr.John Doe (B.H.S)
+              Shrikar Tare-Teacher(NavrachnaSchool)
             </div>
             {/* <p className={styles.circle}>
               <span>AP</span>

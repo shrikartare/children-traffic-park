@@ -12,17 +12,17 @@
 }
 
 .bannerImg1 {
-  height: 500px;
+  height: 530px;
   max-width: 100%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../../../images/1708930666951.jpg");
   background-size: cover;
   display: inline-block;
-  background-position-y: 35%;
+  background-position-y: 40%;
   background-repeat: no-repeat;
   @media only screen and (max-width: 768px) {
-    background-position-x: 60%;
+    background-position-x: 80%;
     height: auto;
   }
 }

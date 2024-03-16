@@ -21,7 +21,7 @@ const AboutUs = () => {
 
       <div className={styles.aboutUsDetail}>
         <p>
-          Welcome to Children Traffic Park founded in 31/01/2024, a vibrant
+          Children Traffic Park founded on 31 August 2024 is a vibrant
           space dedicated to shaping the future of road safety education.Our
           park is more than just an educational hub – it's an immersive
           experience designed to instill a deep understanding of road safety in

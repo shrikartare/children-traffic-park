@@ -17,21 +17,30 @@ const ContactUsView = () => {
             <div className={styles.nectarIcon}>
               <i className={classNames("fa fa-mobile")}></i>
             </div>
-            <p>+1234567890</p>
+            <p>
+              <a href="tel:6031112298">+91123456789</a>
+            </p>
           </div>
           <div className={styles.contactUsCard}>
             <div className={styles.nectarIcon}>
               <i className={classNames("fa fa-envelope-open")}></i>
             </div>
-            <p>xyz@gmail.com</p>
+            <p>
+              {" "}
+              <a href="mail:trafficpark@gmail.com">trafficpark@gmail.com</a>
+            </p>
           </div>
           <div className={styles.contactUsCard}>
             <div className={styles.nectarIcon}>
               <i className={classNames("fa fa-map-marker")}></i>
             </div>
             <p>
-              Traffic office, Karelibaug
-              Vadodara-390005
+              <a
+                target="_blank"
+                href="https://www.google.com/maps?ll=22.306991,73.204452&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=8957164172350216686"
+              >
+                Traffic office, Karelibaug Vadodara-390005
+              </a>
             </p>
           </div>
         </div>
