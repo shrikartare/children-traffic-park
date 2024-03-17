@@ -1,11 +1,12 @@
 .footerSection {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
+  /* background-color: rgb(20, 25, 93, 0.94); */
   display: flex;
-  padding: 30px 40px;
+  padding: 15px 40px;
   justify-content: center;
   @media only screen and (max-width: 768px) {
     flex-direction: column;
-    padding-left: 15%;
+    padding: 15px 70px;
   }
 }
 
@@ -35,7 +36,7 @@
   }
   ul li {
     position: relative;
-    padding: 10px 0px;
+    padding: 6px 0px;
     @media only screen and (max-width: 768px) {
       padding-left: 0px;
     }
@@ -111,14 +112,15 @@
 }
 
 .copyrightContainer {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   border-top: 1px solid whitesmoke;
-  padding: 10px 20px 5px 20px;
+  padding: 5px 20px 5px 20px;
   color: white;
   display: flex;
   justify-content: space-between;
   p {
     display: inline;
+    margin: 6px 0px 0px 0px;
   }
   ul {
     margin: 0px;
@@ -128,7 +130,7 @@
   li {
     display: inline-block;
     position: relative;
-    padding: 10px 0px;
+    padding: 5px 0px;
     i {
       padding-right: 20px;
       color: white;

@@ -45,7 +45,7 @@ const AboutUsView = () => {
               <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
               <li>Manoj Ninama (Additional Police Commissioner)</li>
               <li>
-                J.I. Vasava(Additional Police Commissioner,Traffic Branch)
+                J.I.Vasava(Additional Police Commissioner,Traffic)
               </li>
               <li>Vadodara Traffic Police</li>
               <li>Vadodara City Traffic Education Trust</li>

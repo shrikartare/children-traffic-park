@@ -1,4 +1,5 @@
 import React from "react";
+// import {NextArrow, PrevArrow} from "../Arrows"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,6 +13,8 @@ const Testimonials = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    // nextArrow: <NextArrow  className={styles.arrow}/>,
+    // prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

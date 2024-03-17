@@ -4,7 +4,7 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
 }
 
 .feedbackSection h2 {
@@ -30,13 +30,13 @@
 }
 
 .feedbackInfo {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   border-radius: 10px;
   color: white;
   text-align: center;
   width: 100% !important;
   height: auto;
-  min-height:160px;
+  min-height: 160px;
   letter-spacing: 1px;
   max-height: 250px;
   position: relative;
@@ -69,7 +69,11 @@
   width: 0;
   height: 0;
   bottom: -21px;
-  border-top: 22px solid #14195d;
+  border-top: 22px solid rgb(20, 25, 93, 0.94);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
+}
+
+.arrow::before{
+  color:grey;
 }

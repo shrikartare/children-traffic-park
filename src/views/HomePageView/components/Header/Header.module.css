@@ -11,6 +11,7 @@ header {
 }
 
 .siteLogo {
+  display: flex;
   img {
     height: 90px;
     width: 80px;
@@ -22,7 +23,7 @@ header {
 }
 
 .headerContainer {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   padding: 0px 90px;
   display: flex;
   justify-content: space-between;
@@ -72,7 +73,7 @@ header {
 }
 
 .hamburgerMenu {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   display: none;
   ul {
     list-style-type: none;
@@ -114,8 +115,33 @@ header {
   color: #ffc235 !important;
 }
 
-.bookingBanner{
+.bookingBanner {
   background-color: #ffc235;
-  height:40px;
-  text-align: center;
+  height: 40px;
+  color: #ffffff;
+  padding: 2px 0px 2px 0px;
+  a {
+    color: #ffffff;
+  }
+  .bannerText {
+    position: relative;
+    top: 7px;
+    letter-spacing: 1px;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    @media (max-width: 768px) {
+      animation: none;
+      left: 15%;
+      text-align: center;
+    }
+  }
+}
+@keyframes example {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 700px;
+  }
 }

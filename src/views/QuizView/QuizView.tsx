@@ -6,11 +6,7 @@ import styles from "./QuizView.module.css";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
 
-// const quizImages = require.context(
-//   "../../images/quiz",
-//   false,
-//   /\.(png|jpe?g|svg)$/
-// );
+import quizimage from "../../images/quiz/quizimage.png";
 
 const importAll = (r: any) => {
   return r.keys().map(r);
@@ -20,10 +16,10 @@ const quizImages = importAll(
   require.context("../../images/quiz/", false, /\.(png|jpe?g|svg|jpg)$/)
 );
 
-console.log("quizImages", quizImages);
 const QuizView = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [optionSelected, setOptionSelected] = useState("");
+  const [isQuizStarted, setIsQuizStarted] = useState(false);
 
   const onNextClick = () => {
     setOptionSelected("");
@@ -53,6 +49,20 @@ const QuizView = () => {
 
     return quizImages[currindex];
   };
+
+  const quizStart = (
+    <div className={styles.quizStartContainer}>
+      <h4>We have created a quiz to test traffic knowledge. </h4>
+      <img src={quizimage} alt={"quiz"} />
+      <button
+        className={styles.startQuizBtn}
+        onClick={() => setIsQuizStarted(!isQuizStarted)}
+      >
+        Start Quiz
+      </button>
+    </div>
+  );
+
   return (
     <>
       <Header />
@@ -60,94 +70,103 @@ const QuizView = () => {
         <div className={styles.quizHeadLine}>
           <h2>Traffic Quiz</h2>
         </div>
+        {!isQuizStarted ? (
+          quizStart
+        ) : (
+          <>
+            <div className={styles.quizQuestion}>
+              <p>
+                Question ({currentQuestionIndex + 1}/{questions?.length})
+              </p>
+              <p>
+                {questions[currentQuestionIndex].id}.&nbsp;
+                {questions[currentQuestionIndex]?.question}
+                &nbsp;&nbsp;&nbsp;
+              </p>
+              {questions[currentQuestionIndex].imageName && (
+                <img
+                  src={getQuestionImage()}
+                  height="100"
+                  width="100"
+                  alt="trafficImage"
+                />
+              )}
 
-        <div className={styles.quizQuestion}>
-          <p>
-            Question ({currentQuestionIndex + 1}/{questions?.length})
-          </p>
-          <p>
-            {questions[currentQuestionIndex].id}.&nbsp;
-            {questions[currentQuestionIndex]?.question}
-            &nbsp;&nbsp;&nbsp;
-          </p>
-          {questions[currentQuestionIndex].imageName && (
-            <img
-              src={getQuestionImage()}
-              height="100"
-              width="100"
-              alt="trafficImage"
-            />
-          )}
+              <div className={styles.optionContainer}>
+                {questions[currentQuestionIndex].options.map((opt, index) => {
+                  const isCorrectAnsSelected =
+                    optionSelected ===
+                    questions[currentQuestionIndex]?.correctAnswer;
 
-          <div className={styles.optionContainer}>
-            {questions[currentQuestionIndex].options.map((opt, index) => {
-              const isCorrectAnsSelected =
-                optionSelected ===
-                questions[currentQuestionIndex]?.correctAnswer;
+                  return (
+                    <button
+                      disabled={optionSelected !== ""}
+                      className={cn(
+                        styles.option,
+                        opt ===
+                          questions[currentQuestionIndex]?.correctAnswer &&
+                          optionSelected &&
+                          styles.correctAnswer,
+                        !isCorrectAnsSelected &&
+                          optionSelected === opt &&
+                          styles.wrongAnswer
+                      )}
+                      onClick={(event) => onOptionClick(event, opt)}
+                    >
+                      {getOptionIndex(index)}.&nbsp;
+                      {opt}
+                      {opt === questions[currentQuestionIndex]?.correctAnswer &&
+                        optionSelected && (
+                          <i
+                            className={cn("fa fa-check", styles.correctIcon)}
+                            aria-hidden="true"
+                          ></i>
+                        )}
+                      {!isCorrectAnsSelected && optionSelected === opt && (
+                        <i
+                          className={cn("fa fa-times", styles.wrongIcon)}
+                          aria-hidden="true"
+                        ></i>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
 
-              return (
-                <button
-                  disabled={optionSelected !== ""}
-                  className={cn(
-                    styles.option,
-                    opt === questions[currentQuestionIndex]?.correctAnswer &&
-                      optionSelected &&
-                      styles.correctAnswer,
-                    !isCorrectAnsSelected &&
-                      optionSelected === opt &&
-                      styles.wrongAnswer
-                  )}
-                  onClick={(event) => onOptionClick(event, opt)}
-                >
-                  {getOptionIndex(index)}.&nbsp;
-                  {opt}
-                  {opt === questions[currentQuestionIndex]?.correctAnswer &&
-                    optionSelected && (
-                      <i
-                        className={cn("fa fa-check", styles.correctIcon)}
-                        aria-hidden="true"
-                      ></i>
-                    )}
-                  {!isCorrectAnsSelected && optionSelected === opt && (
-                    <i
-                      className={cn("fa fa-times", styles.wrongIcon)}
-                      aria-hidden="true"
-                    ></i>
-                  )}
+            {optionSelected ===
+              questions[currentQuestionIndex]?.correctAnswer &&
+              optionSelected && (
+                <p className={styles.correctLabel}>
+                  &nbsp; {optionSelected} is correct
+                  <i className={cn("fa fa-check")} aria-hidden="true"></i>{" "}
+                </p>
+              )}
+
+            {optionSelected !==
+              questions[currentQuestionIndex]?.correctAnswer &&
+              optionSelected && (
+                <p className={styles.inCorrectLabel}>
+                  &nbsp;{optionSelected} is incorrect
+                  <i className={cn("fa fa-times")} aria-hidden="true"></i>
+                </p>
+              )}
+            <div className={styles.buttonContainer}>
+              {currentQuestionIndex > 0 && (
+                <button className={styles.nextBtn} onClick={onPreviousClick}>
+                  Previous
                 </button>
-              );
-            })}
-          </div>
-        </div>
+              )}
 
-        {optionSelected === questions[currentQuestionIndex]?.correctAnswer &&
-          optionSelected && (
-            <p className={styles.correctLabel}>
-              &nbsp; {optionSelected} is correct
-              <i className={cn("fa fa-check")} aria-hidden="true"></i>{" "}
-            </p>
-          )}
-
-        {optionSelected !== questions[currentQuestionIndex]?.correctAnswer &&
-          optionSelected && (
-            <p className={styles.inCorrectLabel}>
-              &nbsp;{optionSelected} is incorrect
-              <i className={cn("fa fa-times")} aria-hidden="true"></i>
-            </p>
-          )}
-        <div className={styles.buttonContainer}>
-          {currentQuestionIndex > 0 && (
-            <button className={styles.nextBtn} onClick={onPreviousClick}>
-              Previous
-            </button>
-          )}
-
-          {optionSelected && currentQuestionIndex < questions.length - 1 && (
-            <button className={styles.nextBtn} onClick={onNextClick}>
-              Next
-            </button>
-          )}
-        </div>
+              {optionSelected &&
+                currentQuestionIndex < questions.length - 1 && (
+                  <button className={styles.nextBtn} onClick={onNextClick}>
+                    Next
+                  </button>
+                )}
+            </div>
+          </>
+        )}
       </div>
       <Footer />
     </>

@@ -22,7 +22,7 @@
 
 .sansadHeadLine {
   font-size: 22px;
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   margin: 0 auto;
 }
 

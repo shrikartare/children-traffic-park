@@ -8,16 +8,16 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   text-align: center;
 }
 
 .quizHeadLine {
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
   background-color: #f2f2f2;
-  height: 100px;
+  height: 64px;
   h2 {
-    color: #14195d;
+    color: rgb(20, 25, 93, 0.94);
     margin: 0px;
     text-align: center;
     height: 100px;
@@ -34,7 +34,7 @@
     width: 80%;
   }
   p {
-    color: #14195d;
+    color: rgb(20, 25, 93, 0.94);
     font-size: 22px;
   }
 }
@@ -44,12 +44,12 @@
   display: flex;
   background-color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border: 1px solid #14195d;
+  border: 1px solid rgb(20, 25, 93, 0.94);
   padding: 20px 35px 20px 20px;
   margin: 2%;
   cursor: pointer;
   position: relative;
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
   letter-spacing: 1px;
   font-weight: 500;
   text-align: justify;
@@ -93,7 +93,7 @@
 .nextBtn {
   position: relative;
   font-family: redhatdisplay;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   display: block;
   margin-top: 60px;
   border-radius: 27px;
@@ -123,11 +123,9 @@
 }
 
 .correctLabel {
-  /* color: #14195d; */
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  /* text-transform: capitalize; */
   margin: 30px 0px;
   i {
     padding-left: 10px;
@@ -135,13 +133,38 @@
 }
 
 .inCorrectLabel {
-  /* color: red; */
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  /* text-transform: capitalize; */
   margin: 30px 0px;
   i {
     padding-left: 10px;
   }
+}
+
+.quizStartContainer {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(20, 25, 93, 0.94);
+  padding:30px 0px;
+  img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.startQuizBtn {
+  position: relative;
+  background-color: rgb(20, 25, 93, 0.94);
+  display: block;
+  border-radius: 27px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding: 15px 25px 15px 25px;
+  margin: 23px auto 0px auto;
+  cursor: pointer;
+  line-height: 20px;
 }

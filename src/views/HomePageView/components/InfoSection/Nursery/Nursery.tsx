@@ -11,6 +11,8 @@ const importAll = (r: any) => {
 const nurseyImages = importAll(
   require.context("../../../../../images/Nursery", false, /\.(png|jpe?g|svg)$/)
 );
+
+
 const Nursery = () => {
   const settings = {
     dots: true,
@@ -20,6 +22,8 @@ const Nursery = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10000,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
   };
   const thumbnailImages = nurseyImages.slice(0, 4);
   return (

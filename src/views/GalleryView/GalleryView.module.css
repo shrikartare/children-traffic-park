@@ -34,7 +34,7 @@
   text-align: center;
   padding-bottom: 20px;
   h2 {
-    color: #14195d;
+    color: rgb(20, 25, 93, 0.94);
     margin-bottom: 10px;
   }
 }
@@ -45,7 +45,7 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
 }
 
 .clearfix:after {
@@ -64,7 +64,7 @@
   background-color: #f2f2f2;
   height: 100px;
   h2 {
-    color: #14195d;
+    color: rgb(20, 25, 93, 0.94);
     margin: 0px;
     text-align: center;
     height: 100px;
@@ -81,9 +81,9 @@
   }
 }
 
-.videoSection {
+/* .videoSection {
   margin-top: 4%;
-}
+} */
 
 .responsiveVideo {
   flex-basis: 30%;

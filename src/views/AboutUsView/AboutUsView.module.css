@@ -6,7 +6,7 @@
 }
 
 .aboutUsView > h2 {
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
   margin: 0px;
   text-transform: uppercase;
   text-align: center;
@@ -45,20 +45,20 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
 }
 
 .welcomeContainer h2 {
   margin-bottom: 5px;
   margin-top: 0px;
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
 }
 
 .aboutUsHeadLine {
   background-color: #f2f2f2;
   height: 100px;
   h2 {
-    color: #14195d;
+    color: rgb(20, 25, 93, 0.94);
     margin: 0px;
     text-align: center;
     height: 100px;
@@ -71,12 +71,16 @@
   float: left;
 }
 .owners {
-  color: #14195d;
+  color: rgb(20, 25, 93, 0.94);
   text-decoration: underline;
 }
 
 .welcomeContainer li {
   color: rgb(10, 10, 10, 0.9);
+  padding: 5px 0px 5px 0px;
   font-weight: 600;
   letter-spacing: 1px;
+  @media (max-width: 768px) {
+    text-wrap: nowrap;
+  }
 }

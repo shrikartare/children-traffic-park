@@ -10,9 +10,12 @@ const Header = () => {
   const location = useLocation();
   return (
     <>
-      {/* <div className={styles.bookingBanner}>
-       For visiting traffic park please call at <a href="tel:6031112298">+91123456789</a>
-      </div> */}
+      <div className={styles.bookingBanner}>
+        <span className={styles.bannerText}>
+          To visit traffic park please call at{" "}
+          <a href="tel:6031112298">+91123456789</a>
+        </span>
+      </div>
       <header>
         <div className={styles.headerContainer}>
           <div className={styles.siteLogo}>

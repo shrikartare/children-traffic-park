@@ -1,70 +1,64 @@
 .dividerLine {
   margin: 10px auto 20px auto;
-  width: 250px;
+  width: 140px;
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: #14195d;
+  /* background-color: rgb(20, 25, 93, 0.94); */
+  background-color: #fff;
 }
 
 .feedbackSection h2 {
   text-align: center;
   margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
 }
 .feedbackSection h3 {
   text-align: center;
+  color: #fff;
+  font-weight: 500;
 }
 
 .feedbackContainer {
   padding: 0px 6% 0px 6%;
-  margin: 2% 0px 6% 0px;
+  margin: 2% 0px 2% 0px;
 }
 
 .feedbackSection {
   background-color: #f4f4f4;
   padding: 10px;
   padding-bottom: 60px;
+  background-image: url("../../images/zebra_cross_02.jpg");
+  background-size: cover;
+  /* background-position-y: 40%; */
+  background-repeat: no-repeat;
 }
 .feedbackInfo {
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   border-radius: 10px;
   color: white;
   text-align: center;
   width: 98% !important;
   height: auto;
-  min-height:160px;
+  min-height: 160px;
   letter-spacing: 1px;
   max-height: 250px;
   position: relative;
   margin-bottom: 70px;
   min-height: 150px;
-   margin: 0px 10px 70px 10px;
+  margin: 0px 10px 70px 10px;
   @media only screen and (max-width: 700px) {
     width: 100% !important;
-  }
-}
-
-.circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: #fff;
-  background: grey;
-  margin: 0px auto;
-  vertical-align: middle;
-  text-align: center;
-  span {
-    padding-top: 13px;
-    display: inline-block;
   }
 }
 
 .writetestimonialBtn {
   position: relative;
   font-family: redhatdisplay;
-  background-color: #14195d;
+  background-color: rgb(20, 25, 93, 0.94);
   display: block;
-  margin-top: 30px;
+  margin-top: 15px;
   border-radius: 27px;
   color: white;
   font-size: 14px;
@@ -83,8 +77,8 @@
 
 .reviewerName {
   font-size: 17px;
-  font-weight: 700;
-  color: black;
+  font-weight: 500;
+  color: #fff;
   text-align: justify;
   position: absolute;
   bottom: -59px;
@@ -104,7 +98,7 @@
   width: 0;
   height: 0;
   bottom: -21px;
-  border-top: 22px solid #14195d;
+  border-top: 22px solid rgb(20, 25, 93, 0.94);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }

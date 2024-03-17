@@ -16,27 +16,10 @@ const GalleryView = () => {
     <>
       <Header />
       <div className={styles.galleryContainer}>
-        <div className={styles.galleryHeadLine}>
-          {" "}
-          <h2>OUR PHOTO GALLERY</h2>
-        </div>
-        {galleryImages.map((img: string) => {
-          return (
-            <div className={styles.responsive}>
-              <div className={styles.gallery}>
-                <a target="_blank" href={img} rel="noreferrer">
-                  <img src={img} alt="Cinque Terre" width="600" height="400" />
-                </a>
-              </div>
-            </div>
-          );
-        })}
-
-        <div className={styles.clearfix}></div>
         <div className={styles.videoSection}>
           <div className={styles.galleryHeadLine}>
             {""}
-            <h2>OUR VIDEO GALLERY</h2>
+            <h2>VIDEO GALLERY</h2>
           </div>
           <div className={styles.videoContainer}>
             <div className={styles.responsiveVideo}>
@@ -57,6 +40,23 @@ const GalleryView = () => {
             </div>
           </div>
         </div>
+        <div className={styles.galleryHeadLine}>
+          {" "}
+          <h2>PHOTO GALLERY</h2>
+        </div>
+        {galleryImages.map((img: string) => {
+          return (
+            <div className={styles.responsive}>
+              <div className={styles.gallery}>
+                <a target="_blank" href={img} rel="noreferrer">
+                  <img src={img} alt="Cinque Terre" width="600" height="400" />
+                </a>
+              </div>
+            </div>
+          );
+        })}
+
+        <div className={styles.clearfix}></div>
       </div>
       <Footer />
     </>
