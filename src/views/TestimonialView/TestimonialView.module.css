@@ -4,7 +4,6 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  /* background-color: rgb(20, 25, 93, 0.94); */
   background-color: #fff;
 }
 
@@ -31,7 +30,6 @@
   padding-bottom: 60px;
   background-image: url("../../images/zebra_cross_02.jpg");
   background-size: cover;
-  /* background-position-y: 40%; */
   background-repeat: no-repeat;
 }
 .feedbackInfo {
@@ -76,17 +74,15 @@
 }
 
 .reviewerName {
-  font-size: 17px;
-  font-weight: 500;
-  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
   text-align: justify;
   position: absolute;
   bottom: -59px;
-  right: 70px;
-  text-wrap: nowrap;
-  text-align: center;
-  margin: 0 auto;
-  width: 66%;
+  right: -50px;
+  color: white;
+  width: 100%;
+  word-wrap: break-word;
 }
 
 .bottomArrow::before {

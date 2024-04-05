@@ -25,10 +25,8 @@ const ParkInfo = () => {
   return (
     <>
       <div className={styles.parkinfoContainer}>
-        {/* <h3 className={styles.parkinfoHeadLine}>ParkInfo</h3> */}
-        {/* <div className={styles.dividerLine} /> */}
         <div className={styles.parkinfoInfo}>
-          <br/>
+          <br />
           <p>
             Our interactive exhibits, signals and paintings help children better
             understand traffic rules. We have many number of traffic signs and
@@ -65,7 +63,6 @@ const ParkInfo = () => {
         </div>
         <div className={styles.clearfix}></div>
       </div>
-      {/* <div className={styles.clearfix}></div> */}
     </>
   );
 };

@@ -6,7 +6,6 @@ const AboutUs = () => {
   return (
     <div className={styles.aboutUs}>
       <div className={styles.infoSection}>
-        {/* <h5>About Us</h5> */}
         <h2>Welcome to traffic park</h2>
         <div className={styles.dividerLine} />
         <div className={styles.videoSection}>
@@ -34,11 +33,11 @@ const AboutUs = () => {
           every child, laying the foundation for responsible road behavior.
         </p>
         <p>
-          Our park also has nursery to increase envrionment awarness. Also we have
-          developed a unique concept traffic sansad where students can pledge to
-          observe traffic rules. Vadodara city is known for its abundance of
-          banyan trees.Our banyan tree based theme helps to preserve and also promote
-          the culture and heritage of Vadodara city.
+          Our park also has nursery to increase envrionment awarness. Also we
+          have developed a unique concept traffic sansad where students can
+          pledge to observe traffic rules. Vadodara city is known for its
+          abundance of banyan trees.Our banyan tree based theme helps to
+          preserve and also promote the culture and heritage of Vadodara city.
         </p>
       </div>
     </div>

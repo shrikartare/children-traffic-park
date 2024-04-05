@@ -64,7 +64,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Shrikar Tare-Teacher(NavrachnaSchool)
+                Masuuri Shubana - Teacher (The M.E.S Primary School)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -77,7 +77,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Akash - Teacher(New Era School)
+                 Rajendra Makhwana - Teacher (Vinay Vidhayala)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -89,7 +89,7 @@ const Testimonials = () => {
 
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Akash - Teacher(New Era School)
+                Bhavnaben S. Vyas - Teacher (New Era Girls School)
               </div>
             </div>
           </Slider>

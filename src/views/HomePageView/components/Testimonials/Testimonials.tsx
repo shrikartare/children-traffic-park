@@ -1,5 +1,4 @@
 import React from "react";
-// import {NextArrow, PrevArrow} from "../Arrows"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,9 +11,7 @@ const Testimonials = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    // nextArrow: <NextArrow  className={styles.arrow}/>,
-    // prevArrow: <PrevArrow />,
+    autoplay: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -55,7 +52,9 @@ const Testimonials = () => {
               engaging road safety program.
             </p>
             <div className={styles.bottomArrow}></div>
-            <div className={styles.reviewerName}>Rahul-Principal</div>
+            <div className={styles.reviewerName}>
+              Masuuri Shubana-Teacher(The M.E.S Primary School)
+            </div>
           </div>
           <div className={styles.feedbackInfo}>
             <p>
@@ -67,18 +66,20 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Akash-Teacher(New Era School)
+              Rajendra Makhwana-Teacher(Vinay Vidhayala)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
             <p>
               Traffic Park is awesome facility and policemen teach children
               patiently and answer to their queires and takes quizes at the end.
+              Thank you for the entire traffic park team for educating our
+              students into road safety.
             </p>
 
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Shrikar Tare-Teacher(NavrachnaSchool)
+              Bhavnaben S. Vyas-Teacher(New Era Girls School)
             </div>
           </div>
         </Slider>

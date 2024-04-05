@@ -29,8 +29,8 @@ const AboutUsView = () => {
             </p>
             <p>
               Also to make people aware about environment and increase awarness
-              about banyan tree in Vadodara city (Vadnagri) , we have also
-              developed a nursery which showcases 22 types of plants.
+              about banyan tree in Vadodara city (Vadnagri), we have constructed
+              a nursery which showcases 22 different types of cultural forests.
             </p>
             <p>
               Our park features realistic signals, interactive exhibits, and
@@ -41,12 +41,10 @@ const AboutUsView = () => {
             </p>
             <h3 className={styles.owners}>Traffic Park Team</h3>
             <ul>
-              <li>Anupam Singh Gehlot (Police Commissioner)</li>
-              <li>Jyoti Pankaj Patel (Deputy Police Commissioner)</li>
-              <li>Manoj Ninama (Additional Police Commissioner)</li>
-              <li>
-                J.I.Vasava(Additional Police Commissioner,Traffic)
-              </li>
+              <li>Anupam Singh Gehlot (Commissioner of Police)</li>
+              <li>Jyoti Pankaj Patel (Deputy Commissioner of Police)</li>
+              <li>Manoj Ninama (Joint Commissioner of Police)</li>
+              <li>J.I.Vasava(Assistant Commissioner of Police,Traffic)</li>
               <li>Vadodara Traffic Police</li>
               <li>Vadodara City Traffic Education Trust</li>
             </ul>

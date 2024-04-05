@@ -20,6 +20,7 @@ const QuizView = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [optionSelected, setOptionSelected] = useState("");
   const [isQuizStarted, setIsQuizStarted] = useState(false);
+  const [quizScore, setQuizScore] = useState(0);
 
   const onNextClick = () => {
     setOptionSelected("");
@@ -29,9 +30,10 @@ const QuizView = () => {
     setOptionSelected("");
     setCurrentQuestionIndex(currentQuestionIndex - 1);
   };
-
   const onOptionClick = (event: any, opt: any) => {
     setOptionSelected(opt);
+    if (opt === questions[currentQuestionIndex]?.correctAnswer)
+      setQuizScore(quizScore + 1);
   };
 
   const getOptionIndex = (index: number) => {
@@ -151,6 +153,7 @@ const QuizView = () => {
                   <i className={cn("fa fa-times")} aria-hidden="true"></i>
                 </p>
               )}
+            <div className={styles.quizScore}>Score: {quizScore}</div>
             <div className={styles.buttonContainer}>
               {currentQuestionIndex > 0 && (
                 <button className={styles.nextBtn} onClick={onPreviousClick}>
