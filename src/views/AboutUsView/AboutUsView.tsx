@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AboutUsView.module.css";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
-import aboutUsImg from "../../images/1708930666951.jpg";
+import aboutUsImg from "../../images/TrafficParkTeam/TrafficparkTeam_02.jpeg";
 
 const AboutUsView = () => {
   return (

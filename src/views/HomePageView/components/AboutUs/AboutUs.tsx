@@ -1,5 +1,5 @@
 import React from "react";
-import trafficPoster from "../../../../images/TrafficPoster_06.jpg";
+import trafficPoster from "../../../../images/TrafficParkTitle.jpeg";
 import styles from "./AboutUs.module.css";
 
 const AboutUs = () => {
