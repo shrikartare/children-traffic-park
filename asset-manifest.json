@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/children-traffic-park/static/css/main.fd117630.css",
-    "main.js": "/children-traffic-park/static/js/main.ba0e5f5c.js",
+    "main.css": "/children-traffic-park/static/css/main.af12b32b.css",
+    "main.js": "/children-traffic-park/static/js/main.26a5f89e.js",
     "static/js/453.c49f1ce5.chunk.js": "/children-traffic-park/static/js/453.c49f1ce5.chunk.js",
     "static/media/TrafficPoster_55png.png": "/children-traffic-park/static/media/TrafficPoster_55png.aa36ee784b7796ba1c19.png",
     "static/media/TrafficparkTeam_02.jpeg": "/children-traffic-park/static/media/TrafficparkTeam_02.bb492d69e411cdab6a13.jpeg",
@@ -33,12 +33,10 @@
     "static/media/logo.jpg": "/children-traffic-park/static/media/logo.6f1fc92b7eae6cf32d43.jpg",
     "static/media/BanyanTree.jpg": "/children-traffic-park/static/media/BanyanTree.a2a08cc206c880de0874.jpg",
     "static/media/TrafficPoster_06.jpg": "/children-traffic-park/static/media/TrafficPoster_06.ca46644a5700bac66e4f.jpg",
-    "static/media/WorkSans-VariableFont_wght.ttf": "/children-traffic-park/static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf",
     "static/media/Nursery_01.jpg": "/children-traffic-park/static/media/Nursery_01.77087f02285c57020c17.jpg",
     "static/media/Nursery_03.jpg": "/children-traffic-park/static/media/Nursery_03.6e89de68141cefb301fb.jpg",
     "static/media/TrafficPoster_01.jpg": "/children-traffic-park/static/media/TrafficPoster_01.0143c43fa14cf2017e93.jpg",
     "static/media/TrafficPoster_04.jpg": "/children-traffic-park/static/media/TrafficPoster_04.0143c43fa14cf2017e93.jpg",
-    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/children-traffic-park/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
     "static/media/Nursery_02.jpg": "/children-traffic-park/static/media/Nursery_02.1b829ca5d2b71bab81fc.jpg",
     "static/media/TrafficPoster_02.jpg": "/children-traffic-park/static/media/TrafficPoster_02.c06be041ef6f58c5dbd9.jpg",
     "static/media/TrafficPoster_05.jpg": "/children-traffic-park/static/media/TrafficPoster_05.c06be041ef6f58c5dbd9.jpg",
@@ -49,26 +47,28 @@
     "static/media/1708930666970.jpg": "/children-traffic-park/static/media/1708930666970.ab37b5650df478f03375.jpg",
     "static/media/TrafficPark_poster_01.jpg": "/children-traffic-park/static/media/TrafficPark_poster_01.0ba0a7478025f3e2faf7.jpg",
     "static/media/ZTrafficPark_poster_101.jpg": "/children-traffic-park/static/media/ZTrafficPark_poster_101.0ba0a7478025f3e2faf7.jpg",
+    "static/media/quizimage.png": "/children-traffic-park/static/media/quizimage.3903e9d56d5dd4723d42.png",
     "static/media/1708930666974.jpg": "/children-traffic-park/static/media/1708930666974.f8fa5646959aae1bde64.jpg",
-    "static/media/quizimage.png": "/children-traffic-park/static/media/quizimage.c589ca6513ce09c4faab.png",
     "static/media/img02.jpeg": "/children-traffic-park/static/media/img02.e6bddf5774818b0172f1.jpeg",
     "static/media/1708930666966.jpg": "/children-traffic-park/static/media/1708930666966.7047a613f012111c1336.jpg",
     "static/media/1708930666955.jpg": "/children-traffic-park/static/media/1708930666955.4db60e768318275284d9.jpg",
     "static/media/1708930666962.jpg": "/children-traffic-park/static/media/1708930666962.d58c94b329b6091ed7c1.jpg",
     "static/media/TrafficSansa_01.jpg": "/children-traffic-park/static/media/TrafficSansa_01.d58c94b329b6091ed7c1.jpg",
     "static/media/RedHatDisplay-VariableFont_wght.ttf": "/children-traffic-park/static/media/RedHatDisplay-VariableFont_wght.1347a18cbb2d6ed45e1a.ttf",
+    "static/media/laneChange_01.png": "/children-traffic-park/static/media/laneChange_01.967e4f2040940c3d0758.png",
+    "static/media/halt.png": "/children-traffic-park/static/media/halt.39bd32d0c7e9ef10da8d.png",
     "static/media/slick.svg": "/children-traffic-park/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/children-traffic-park/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/children-traffic-park/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/children-traffic-park/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/children-traffic-park/index.html",
     "static/media/stop.svg": "/children-traffic-park/static/media/stop.95f8fb05ed31a91d0a45.svg",
-    "main.fd117630.css.map": "/children-traffic-park/static/css/main.fd117630.css.map",
-    "main.ba0e5f5c.js.map": "/children-traffic-park/static/js/main.ba0e5f5c.js.map",
+    "main.af12b32b.css.map": "/children-traffic-park/static/css/main.af12b32b.css.map",
+    "main.26a5f89e.js.map": "/children-traffic-park/static/js/main.26a5f89e.js.map",
     "453.c49f1ce5.chunk.js.map": "/children-traffic-park/static/js/453.c49f1ce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd117630.css",
-    "static/js/main.ba0e5f5c.js"
+    "static/css/main.af12b32b.css",
+    "static/js/main.26a5f89e.js"
   ]
 }
