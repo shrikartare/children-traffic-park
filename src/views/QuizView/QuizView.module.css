@@ -8,16 +8,16 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   text-align: center;
 }
 
 .quizHeadLine {
-  color: rgb(20, 25, 93, 0.94);
+  color: rgb(20, 25, 89, 0.94);
   background-color: #f2f2f2;
   height: 64px;
   h2 {
-    color: rgb(20, 25, 93, 0.94);
+    color: rgb(20, 25, 89, 0.94);
     margin: 0px;
     text-align: center;
     height: 100px;
@@ -34,7 +34,7 @@
     width: 80%;
   }
   p {
-    color: rgb(20, 25, 93, 0.94);
+    color: rgb(20, 25, 89, 0.94);
     font-size: 22px;
   }
 }
@@ -44,17 +44,17 @@
   display: flex;
   background-color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border: 1px solid rgb(20, 25, 93, 0.94);
+  border: 1px solid rgb(20, 25, 89, 0.94);
   padding: 20px 35px 20px 20px;
   margin: 2%;
   cursor: pointer;
   position: relative;
-  color: rgb(20, 25, 93, 0.94);
+  color: rgb(20, 25, 89, 0.94);
   letter-spacing: 1px;
   font-weight: 500;
   text-align: justify;
   font-size: 15px;
-  font-family: worksans;
+  font-family: redhatdisplay;
   height: auto;
   .correctIcon {
     font-size: 21px;
@@ -69,6 +69,9 @@
     position: absolute;
     right: 6px;
     top: 22px;
+  }
+  img {
+    padding: 0px 5px 0px 5px;
   }
   @media only screen and (max-width: 768px) {
     flex-basis: 100%;
@@ -93,7 +96,7 @@
 .nextBtn {
   position: relative;
   font-family: redhatdisplay;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   display: block;
   margin-top: 60px;
   border-radius: 27px;
@@ -127,8 +130,10 @@
   font-size: 20px;
   font-weight: 500;
   margin: 30px 0px;
+  color: rgb(20, 25, 89, 0.94);
   i {
     padding-left: 10px;
+    color: green;
   }
 }
 
@@ -137,15 +142,17 @@
   font-size: 20px;
   font-weight: 500;
   margin: 30px 0px;
+  color: rgb(20, 25, 89, 0.94);
   i {
     padding-left: 10px;
+    color: red;
   }
 }
 
 .quizStartContainer {
   text-align: center;
   font-size: 22px;
-  color: rgb(20, 25, 93, 0.94);
+  color: rgb(20, 25, 89, 0.94);
   padding: 30px 0px;
   img {
     height: 120px;
@@ -155,7 +162,7 @@
 
 .startQuizBtn {
   position: relative;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   display: block;
   border-radius: 27px;
   color: white;
@@ -170,9 +177,9 @@
 }
 
 .quizScore {
-  color: rgb(20, 25, 93, 0.94);
+  color: rgb(20, 25, 89, 0.94);
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 100px;
 }

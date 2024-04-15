@@ -4,7 +4,7 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
 }
 
 .feedbackSection h2 {
@@ -17,7 +17,7 @@
 
 .feedbackContainer {
   margin: 0px auto;
-  width: 35%;
+  width: 70%;
   @media only screen and (max-width: 700px) {
     width: 90% !important;
   }
@@ -25,36 +25,40 @@
 
 .feedbackSection {
   background-color: #f4f4f4;
-  padding: 10px;
   padding-bottom: 60px;
 }
 
-.feedbackInfo {
-  background-color: rgb(20, 25, 93, 0.94);
+.feedbackText {
+  background-color: rgb(20, 25, 89, 0.94);
   border-radius: 10px;
-  color: white;
-  text-align: center;
-  width: 100% !important;
-  height: auto;
-  min-height: 160px;
+  min-height: 141px;
   letter-spacing: 1px;
   max-height: 250px;
+  height: auto;
+  color: white;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+}
+
+.feedbackInfo {
   position: relative;
-  margin-bottom: 70px;
-  min-height: 150px;
+  margin-bottom: 20px;
+  width: 90% !important;
   @media only screen and (max-width: 700px) {
     width: 100% !important;
   }
   .reviewerName {
-    font-size: 13px;
-    font-weight: 700;
-    text-align: justify;
-    position: absolute;
-    bottom: -59px;
-    right: -14px;
+    font-size: 17px;
+    font-weight: 500;
     color: rgba(10, 10, 10, 0.9);
     width: 100%;
     word-wrap: break-word;
+    margin-top: 26px;
+    text-align: center;
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -66,12 +70,13 @@
   margin: 0 auto;
   width: 0;
   height: 0;
-  bottom: -21px;
-  border-top: 22px solid rgb(20, 25, 93, 0.94);
+  top: 159px;
+  border-top: 22px solid rgb(20, 25, 89, 0.94);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }
-
-.arrow::before {
-  color: grey;
+@media only screen and (max-width: 769px) {
+  .bottomArrow::before {
+    top: 160px;
+  }
 }

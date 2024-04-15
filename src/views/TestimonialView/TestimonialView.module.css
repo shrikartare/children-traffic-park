@@ -25,15 +25,10 @@
 }
 
 .feedbackSection {
-  background-color: #f4f4f4;
-  padding: 10px;
-  padding-bottom: 60px;
-  background-image: url("../../images/zebra_cross_02.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 0px 10px 60px 10px;
 }
 .feedbackInfo {
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   border-radius: 10px;
   color: white;
   text-align: center;
@@ -54,9 +49,8 @@
 .writetestimonialBtn {
   position: relative;
   font-family: redhatdisplay;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   display: block;
-  margin-top: 15px;
   border-radius: 27px;
   color: white;
   font-size: 14px;
@@ -65,11 +59,8 @@
   line-height: 24px;
   letter-spacing: 1px;
   word-wrap: break-word;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 35px;
-  padding-left: 35px;
-  margin: 20px auto;
+  padding: 15px 35px 15px 35px;
+  margin: 70px auto 10px auto;
   cursor: pointer;
 }
 
@@ -80,7 +71,7 @@
   position: absolute;
   bottom: -59px;
   right: -50px;
-  color: white;
+  color: rgb(20, 25, 89, 0.94);
   width: 100%;
   word-wrap: break-word;
 }
@@ -94,7 +85,19 @@
   width: 0;
   height: 0;
   bottom: -21px;
-  border-top: 22px solid rgb(20, 25, 93, 0.94);
+  border-top: 22px solid rgb(20, 25, 89, 0.94);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
+}
+.feedbackHeadLine {
+  background-color: #f2f2f2;
+  height: 100px;
+  h2 {
+    color: rgb(20, 25, 89, 0.94);
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 30%;
+  }
 }

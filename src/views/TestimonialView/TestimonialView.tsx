@@ -49,9 +49,11 @@ const Testimonials = () => {
     <>
       <Header />
       <div className={styles.feedbackSection}>
-        <h2>Testimonials</h2>
-        <div className={styles.dividerLine} />
-        <h3>What our clients Say</h3>
+        <div className={styles.feedbackHeadLine}>
+          <h2>Testimonials</h2>
+        </div>
+        {/* <div className={styles.dividerLine} />
+        <h3>What our clients Say</h3> */}
         <div className={styles.feedbackContainer}>
           <Slider {...settings}>
             <div className={styles.feedbackInfo}>
@@ -77,7 +79,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                 Rajendra Makhwana - Teacher (Vinay Vidhayala)
+                Rajendra Makhwana - Teacher (Vinay Vidhayala)
               </div>
             </div>
             <div className={styles.feedbackInfo}>

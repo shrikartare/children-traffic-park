@@ -3,26 +3,24 @@
 }
 
 .sansadImage {
-  height: 300px;
+  height: 330px;
   width: 100%;
 }
 
 .sansadInfo {
   width: 100%;
-  /* margin-left: 10px; */
   text-align: justify;
   font-size: 17px;
   font-weight: 500;
   color: rgba(10, 10, 10, 0.9);
   @media (max-width: 768px) {
     width: 100%;
-    /* margin-left: 0px; */
   }
 }
 
 .sansadHeadLine {
   font-size: 22px;
-  color: rgb(20, 25, 93, 0.94);
+  color: rgb(20, 25, 89, 0.94);
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
@@ -35,14 +33,14 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   margin: 0 auto;
 }
 
 .sansadContainer {
   padding: 30px 8px 10px 18px;
-  width: 34%;
-  margin-left: 10%;
+  width: 36%;
+  margin-left: 8%;
   float:left;
   @media (max-width: 768px) {
     width: 100%;

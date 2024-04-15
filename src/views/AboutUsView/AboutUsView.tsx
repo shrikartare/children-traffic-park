@@ -44,7 +44,7 @@ const AboutUsView = () => {
               <li>Anupam Singh Gehlot (Commissioner of Police)</li>
               <li>Jyoti Pankaj Patel (Deputy Commissioner of Police)</li>
               <li>Manoj Ninama (Joint Commissioner of Police)</li>
-              <li>J.I.Vasava(Assistant Commissioner of Police,Traffic)</li>
+              <li>J.I.Vasava (Assistant Commissioner of Police,Traffic)</li>
               <li>Vadodara Traffic Police</li>
               <li>Vadodara City Traffic Education Trust</li>
             </ul>

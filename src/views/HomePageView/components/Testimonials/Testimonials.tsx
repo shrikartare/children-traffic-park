@@ -9,7 +9,7 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
     responsive: [
@@ -40,11 +40,11 @@ const Testimonials = () => {
     <div className={styles.feedbackSection}>
       <h2>Testimonials</h2>
       <div className={styles.dividerLine} />
-      <h3>What our clients say</h3>
+      <h3>What schools have to  say</h3>
       <div className={styles.feedbackContainer}>
         <Slider {...settings}>
           <div className={styles.feedbackInfo}>
-            <p>
+            <p className={styles.feedbackText}>
               Traffic Park has set a benchmark in road safety education. The
               informative sessions were not just educational but also fun,
               making it a memorable experience for my students. I highly
@@ -53,11 +53,11 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Masuuri Shubana-Teacher(The M.E.S Primary School)
+              Masuuri Shubana - Teacher (The M.E.S Primary School)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
-            <p>
+            <p className={styles.feedbackText}>
               Traffic Park is a game-changer for kids' road safety education. My
               daughter attended a session and came home not only with a better
               understanding of traffic rules but also with a sparkle in her
@@ -66,11 +66,11 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Rajendra Makhwana-Teacher(Vinay Vidhayala)
+              Rajendra Makhwana - Teacher (Vinay Vidhayala)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
-            <p>
+            <p className={styles.feedbackText}>
               Traffic Park is awesome facility and policemen teach children
               patiently and answer to their queires and takes quizes at the end.
               Thank you for the entire traffic park team for educating our
@@ -79,7 +79,7 @@ const Testimonials = () => {
 
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Bhavnaben S. Vyas-Teacher(New Era Girls School)
+              Bhavnaben Vyas - Teacher (New Era Girls School)
             </div>
           </div>
         </Slider>

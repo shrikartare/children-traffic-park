@@ -1,13 +1,4 @@
 @font-face {
-  font-family: "worksans";
-  src: url("./fonts/WorkSans-VariableFont_wght.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "playfairdisplay";
-  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf") format("woff");
-}
-@font-face {
   font-family: "redhatdisplay";
   src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf") format("woff");
 }
@@ -15,20 +6,5 @@
 body {
   font-family: redhatdisplay;
   margin: 0px;
-  padding:1px;
-  /* letter-spacing: 1px; */
+  padding: 0px;
 }
-
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */

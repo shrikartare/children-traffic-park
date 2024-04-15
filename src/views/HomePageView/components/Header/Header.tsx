@@ -12,8 +12,7 @@ const Header = () => {
     <>
       <div className={styles.bookingBanner}>
         <span className={styles.bannerText}>
-          To visit traffic park please call at{" "}
-          <a href="tel:6031112298">+91123456789</a>
+          trafficpark@gmail.com | +91123456789
         </span>
       </div>
       <header>

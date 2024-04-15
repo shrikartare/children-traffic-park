@@ -1,6 +1,6 @@
 .footerSection {
-  background-color: rgb(20, 25, 93, 0.94);
-  /* background-color: rgb(20, 25, 93, 0.94); */
+  background-color: rgb(20, 25, 89, 0.94);
+  /* background-color: rgb(20, 25, 89, 0.94); */
   display: flex;
   padding: 15px 40px;
   justify-content: center;
@@ -112,7 +112,7 @@
 }
 
 .copyrightContainer {
-  background-color: rgb(20, 25, 93, 0.94);
+  background-color: rgb(20, 25, 89, 0.94);
   border-top: 1px solid whitesmoke;
   padding: 5px 20px 5px 20px;
   color: white;
