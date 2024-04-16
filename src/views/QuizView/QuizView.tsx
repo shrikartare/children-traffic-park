@@ -67,11 +67,8 @@ const QuizView = () => {
   }, []);
 
   const onOptionClick = (event: any, opt: any) => {
-    setSelectedOption(opt.answer);
-    if (
-      opt.answer ===
-      filteredQuestions[currentQuestionIndex]?.correctAnswer?.answer
-    )
+    setSelectedOption(opt?.id);
+    if (opt.id === filteredQuestions[currentQuestionIndex]?.correctAnswer?.id)
       setQuizScore(quizScore + 1);
   };
 
@@ -110,15 +107,23 @@ const QuizView = () => {
   );
   const isCorrectOption = (opt: any) =>
     selectedOption &&
-    opt?.answer.toString() ===
-      filteredQuestions[currentQuestionIndex]?.correctAnswer?.answer;
+    opt?.id.toString() ===
+      filteredQuestions[currentQuestionIndex]?.correctAnswer?.id;
 
   const isWrongOption = (opt: any) =>
     selectedOption &&
-    selectedOption === opt?.answer &&
-    opt?.answer !==
-      filteredQuestions[currentQuestionIndex]?.correctAnswer?.answer;
+    selectedOption === opt?.id &&
+    opt?.id !== filteredQuestions[currentQuestionIndex]?.correctAnswer?.id;
 
+  const onRetakeQuiz = () => {
+    filteredQuestions = [];
+    setFilteredCategoryQuestions();
+    setCurrentQuestionIndex(0);
+    setSelectedOption("");
+    setIsQuizStarted(false);
+    setQuizScore(0);
+    setIsQuizEnded(false);
+  };
   return (
     <>
       <Header />
@@ -133,7 +138,7 @@ const QuizView = () => {
             <div className={styles.quizQuestion}>
               <p>
                 Question ({currentQuestionIndex + 1}/{filteredQuestions?.length}
-                )
+                ) Category: {filteredQuestions[currentQuestionIndex]?.category}
               </p>
               <p>
                 {filteredQuestions[currentQuestionIndex]?.question}
@@ -149,6 +154,9 @@ const QuizView = () => {
               )}
 
               <div className={styles.optionContainer}>
+                {/* <p> */}
+                {/* Category: {filteredQuestions[currentQuestionIndex]?.category} */}
+                {/* </p> */}
                 {filteredQuestions[currentQuestionIndex].options.map(
                   (opt: any, index: number) => {
                     return (
@@ -206,11 +214,17 @@ const QuizView = () => {
           </>
         )}
         {isQuizEnded && (
-          <div className={styles.quizScore}>
-            {" "}
-            Quiz has ended. <br /> <br /> {quizScore} out of{" "}
-            {filteredQuestions?.length} questions answered are correct.
-          </div>
+          <>
+            <div className={styles.quizScore}>
+              {" "}
+              Quiz has ended. <br /> <br /> {quizScore} out of{" "}
+              {filteredQuestions?.length} questions answered are correct.
+            </div>
+
+            <button className={styles.retakeBtn} onClick={onRetakeQuiz}>
+              Retake Quiz
+            </button>
+          </>
         )}
       </div>
       <Footer />

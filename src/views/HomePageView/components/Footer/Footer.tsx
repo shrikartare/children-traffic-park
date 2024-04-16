@@ -84,17 +84,17 @@ const Footer = () => {
           <ul>
             <li>
               <i className="fa fa-map-marker" aria-hidden="true"></i>
-              Children Traffic Park, Bhutdi Jampa Police Quarters Compound, Behind
-              Mahila Police Station, Traffic Office (East Zone), Karelibaug,
-              Vadodara-390005
+              Children Traffic Park, Bhutdi Jampa Police Quarters Compound,
+              Behind Mahila Police Station, Traffic Office (East Zone),
+              Karelibaug, Vadodara-390005
             </li>
             <li>
               <i className="fa fa-mobile" aria-hidden="true"></i>
-              12345665897
+              +91 9875192122
             </li>
             <li>
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
-              xyz@gmail.com
+              childrentrafficpark@gmail.com
             </li>
           </ul>
         </nav>
