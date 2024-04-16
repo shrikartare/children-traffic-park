@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e69998b.css",
-    "main.js": "/static/js/main.62948e99.js",
+    "main.js": "/static/js/main.d27000c2.js",
     "static/js/453.c49f1ce5.chunk.js": "/static/js/453.c49f1ce5.chunk.js",
     "static/media/TrafficPoster_55png.png": "/static/media/TrafficPoster_55png.aa36ee784b7796ba1c19.png",
     "static/media/TrafficparkTeam_02.jpeg": "/static/media/TrafficparkTeam_02.bb492d69e411cdab6a13.jpeg",
@@ -63,11 +63,11 @@
     "index.html": "/index.html",
     "static/media/stop.svg": "/static/media/stop.95f8fb05ed31a91d0a45.svg",
     "main.1e69998b.css.map": "/static/css/main.1e69998b.css.map",
-    "main.62948e99.js.map": "/static/js/main.62948e99.js.map",
+    "main.d27000c2.js.map": "/static/js/main.d27000c2.js.map",
     "453.c49f1ce5.chunk.js.map": "/static/js/453.c49f1ce5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e69998b.css",
-    "static/js/main.62948e99.js"
+    "static/js/main.d27000c2.js"
   ]
 }
