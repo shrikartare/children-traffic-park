@@ -17,7 +17,7 @@ const HomeComponent = () => {
       <Infosection />
       <GrowingMoment />
       <Testimonials />
-      <Gallery />
+      {/* <Gallery /> */}
       <Footer />
     </>
   );

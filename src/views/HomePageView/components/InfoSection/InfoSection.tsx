@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./InfoSection.module.css";
+import styles from "./InfoSection.module.scss";
 import TrafficParkInfo from "./TrafficParkInfo";
 import Nursery from "./Nursery";
 import TrafficSansad from "./TrafficSansad";

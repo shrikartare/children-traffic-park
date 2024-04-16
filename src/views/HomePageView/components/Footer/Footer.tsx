@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
 import logo from "../../../../images/Logo/logo.jpg";
-import styles from "./Footer.module.css";
+import styles from "./Footer.module.scss";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -84,7 +84,8 @@ const Footer = () => {
           <ul>
             <li>
               <i className="fa fa-map-marker" aria-hidden="true"></i>
-              Children Traffic Park, Near Karelibaug Police Station Karelibaug,
+              Children Traffic Park, Bhutdi Jampa Police Quarters Compound, Behind
+              Mahila Police Station, Traffic Office (East Zone), Karelibaug,
               Vadodara-390005
             </li>
             <li>

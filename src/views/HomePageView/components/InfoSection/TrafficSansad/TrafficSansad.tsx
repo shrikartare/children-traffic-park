@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./TrafficSansad.module.css";
+import styles from "./TrafficSansad.module.scss";
 
 const importAll = (r: any) => {
   return r.keys().map(r);
@@ -23,7 +23,7 @@ const TrafficSansad = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10000
+    autoplaySpeed: 10000,
   };
   const thumbnailImages = nurseyImages.slice(0, 10);
   return (
@@ -36,7 +36,7 @@ const TrafficSansad = () => {
             <Slider {...settings}>
               {thumbnailImages.map((imgSrc: string) => {
                 return (
-                  <a href={imgSrc}    target="_blank">
+                  <a href={imgSrc} target="_blank">
                     <img
                       src={imgSrc}
                       className={styles.sansadImage}
@@ -51,10 +51,11 @@ const TrafficSansad = () => {
 
         <div className={styles.sansadInfo}>
           <p>
-            Traffic Sansad is a place inside traffic park where students take pledge to observe and follow
-            traffic rules. After learning all the road safety rules from traffic
-            policemen, students take pledge to observe and follow traffic rules.
-            These helps them lay a good foundation for responsible road behaviour.
+            Traffic Sansad is a place inside traffic park where students take
+            pledge to observe and follow traffic rules. After learning all the
+            road safety rules from traffic policemen, students take pledge to
+            observe and follow traffic rules. These helps them lay a good
+            foundation for responsible road behaviour.
           </p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
-import styles from "./ContactUsView.module.css";
+import styles from "./ContactUsView.module.scss";
 
 const ContactUsView = () => {
   return (
@@ -18,7 +18,7 @@ const ContactUsView = () => {
               <i className={classNames("fa fa-mobile")}></i>
             </div>
             <p>
-              <a href="tel:6031112298">+91123456789</a>
+              <a href="tel:6031112298">+91 9875192122</a>
             </p>
           </div>
           <div className={styles.contactUsCard}>
@@ -27,7 +27,7 @@ const ContactUsView = () => {
             </div>
             <p>
               {" "}
-              <a href="mail:trafficpark@gmail.com">trafficpark@gmail.com</a>
+              <a href="mail:childrentrafficpark@gmail.com">childrentrafficpark@gmail.com</a>
             </p>
           </div>
           <div className={styles.contactUsCard}>
@@ -35,12 +35,12 @@ const ContactUsView = () => {
               <i className={classNames("fa fa-map-marker")}></i>
             </div>
             <p>
-              <a
+              {/* <a
                 target="_blank"
                 href="https://www.google.com/maps?ll=22.306991,73.204452&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=8957164172350216686"
-              >
-                Traffic office, Karelibaug Vadodara-390005
-              </a>
+              > */}
+                Children Traffic Park, Bhutdi Jampa Police Quarters Compound, Behind Mahila Police Station, Traffic Office (East Zone), Karelibaug,  Vadodara-390005
+              {/* </a> */}
             </p>
           </div>
         </div>

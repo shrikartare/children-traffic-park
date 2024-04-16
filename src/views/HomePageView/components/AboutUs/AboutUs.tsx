@@ -1,12 +1,12 @@
 import React from "react";
-import trafficPoster from "../../../../images/TrafficParkTitle.jpeg";
-import styles from "./AboutUs.module.css";
+import trafficPoster from "../../../../images/Home_aboutUs/TrafficParkTitle.jpeg";
+import styles from "./AboutUs.module.scss";
 
 const AboutUs = () => {
   return (
     <div className={styles.aboutUs}>
       <div className={styles.infoSection}>
-        <h2>Welcome to traffic park</h2>
+        <h2>Children Traffic Park</h2>
         <div className={styles.dividerLine} />
         <div className={styles.videoSection}>
           <img

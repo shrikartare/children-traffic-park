@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./Nursery.module.css";
+import styles from "./Nursery.module.scss";
 
 const importAll = (r: any) => {
   return r.keys().map(r);
@@ -11,7 +11,6 @@ const importAll = (r: any) => {
 const nurseyImages = importAll(
   require.context("../../../../../images/Nursery", false, /\.(png|jpe?g|svg)$/)
 );
-
 
 const Nursery = () => {
   const settings = {
@@ -22,8 +21,6 @@ const Nursery = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10000,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
   };
   const thumbnailImages = nurseyImages.slice(0, 4);
   return (
@@ -52,7 +49,7 @@ const Nursery = () => {
         <div className={styles.nurseryInfo}>
           <p>
             To increase environmental awarness a nursey is developed along side
-            traffic park, which has many different types of plants and species.
+            traffic park, which has many different types cultural forests.
             These gives helps the young minds to understand importance of
             nature. Since vadodara is also known as vadnagri,the banyan tree
             theme in our park helps to cultivate importance of banyan tree and

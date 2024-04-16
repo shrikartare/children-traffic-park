@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 import logo from "../../../../images/Logo/logo.jpg";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <div className={styles.bookingBanner}>
         <span className={styles.bannerText}>
-          trafficpark@gmail.com | +91123456789
+          childrentrafficpark@gmail.com | +91 9875192122
         </span>
       </div>
       <header>

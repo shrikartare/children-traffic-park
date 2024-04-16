@@ -24,25 +24,24 @@
   margin: 2% 0px 2% 0px;
 }
 
-.feedbackSection {
-  padding: 0px 10px 60px 10px;
-}
 .feedbackInfo {
-  background-color: rgb(20, 25, 89, 0.94);
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-  width: 98% !important;
-  height: auto;
-  min-height: 160px;
-  letter-spacing: 1px;
-  max-height: 250px;
   position: relative;
-  margin-bottom: 70px;
-  min-height: 150px;
-  margin: 0px 10px 70px 10px;
+  margin-bottom: 20px;
+  width: 90% !important;
   @media only screen and (max-width: 700px) {
     width: 100% !important;
+  }
+  .reviewerName {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(10, 10, 10, 0.9);
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 26px;
+    text-align: center;
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -60,20 +59,8 @@
   letter-spacing: 1px;
   word-wrap: break-word;
   padding: 15px 35px 15px 35px;
-  margin: 70px auto 10px auto;
+  margin: 70px auto 50px auto;
   cursor: pointer;
-}
-
-.reviewerName {
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  position: absolute;
-  bottom: -59px;
-  right: -50px;
-  color: rgb(20, 25, 89, 0.94);
-  width: 100%;
-  word-wrap: break-word;
 }
 
 .bottomArrow::before {
@@ -84,10 +71,15 @@
   margin: 0 auto;
   width: 0;
   height: 0;
-  bottom: -21px;
+  top: 170px;
   border-top: 22px solid rgb(20, 25, 89, 0.94);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
+}
+@media only screen and (max-width: 769px) {
+  .bottomArrow::before {
+    top: 170px;
+  }
 }
 .feedbackHeadLine {
   background-color: #f2f2f2;
@@ -100,4 +92,17 @@
     position: relative;
     top: 30%;
   }
+}
+
+.feedbackText {
+  background-color: rgb(20, 25, 89, 0.94);
+  border-radius: 10px;
+  min-height: 141px;
+  letter-spacing: 1px;
+  max-height: 250px;
+  height: 150px;
+  color: white;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
 }

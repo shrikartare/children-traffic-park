@@ -182,4 +182,7 @@
   font-weight: 600;
   text-align: center;
   margin: 100px;
+  @media only screen and (max-width: 768px) {
+    margin:20px 0px 10px 0px;
+  }
 }

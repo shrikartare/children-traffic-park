@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./AboutUsView.module.css";
+import styles from "./AboutUsView.module.scss";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
 import aboutUsImg from "../../images/TrafficParkTeam/TrafficparkTeam_02.jpeg";
@@ -30,7 +30,7 @@ const AboutUsView = () => {
             <p>
               Also to make people aware about environment and increase awarness
               about banyan tree in Vadodara city (Vadnagri), we have constructed
-              a nursery which showcases 22 different types of cultural forests.
+              a nursery which showcases many different types of cultural forests.
             </p>
             <p>
               Our park features realistic signals, interactive exhibits, and

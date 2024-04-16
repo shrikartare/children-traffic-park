@@ -1,7 +1,7 @@
 {
   "name": "traffic-park",
   "version": "0.1.0",
-  "homepage": "https://shrikartare.github.io/children-traffic-park",
+  "homepage": "https://shrikartare.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -48,6 +48,7 @@
   "devDependencies": {
     "@types/react-slick": "^0.23.13",
     "@types/webpack-env": "^1.18.4",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "sass": "^1.75.0"
   }
 }

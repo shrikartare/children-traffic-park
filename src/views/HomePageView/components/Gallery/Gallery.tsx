@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { useNavigate } from "react-router-dom";
-import styles from "./Gallery.module.css";
+import styles from "./Gallery.module.scss";
 
 const importAll = (r: any) => {
   return r.keys().map(r);

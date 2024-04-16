@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import cn from "classnames";
 import { questions, categories } from "./questions";
-import styles from "./QuizView.module.css";
+import styles from "./QuizView.module.scss";
 
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
@@ -10,7 +10,6 @@ import quizimage from "../../images/quiz/quizimage.png";
 
 const importAll = (r: any) => {
   return r.keys().map((img: any) => {
-    console.log("r", r);
     return {
       id: img,
       image: r(img),
@@ -190,24 +189,6 @@ const QuizView = () => {
                 )}
               </div>
             </div>
-
-            {/* {selectedOption ===
-              filteredQuestions[currentQuestionIndex]?.correctAnswer?.answer &&
-              selectedOption && (
-                <p className={styles.correctLabel}>
-                  સાચો જવાબ છે &nbsp; {selectedOption}
-                  <i className={cn("fa fa-check")} aria-hidden="true"></i>{" "}
-                </p>
-              )}
-
-            {selectedOption !==
-              filteredQuestions[currentQuestionIndex]?.correctAnswer?.answer &&
-              selectedOption && (
-                <p className={styles.inCorrectLabel}>
-                  ખોટો જવાબ છે &nbsp;{selectedOption}
-                  <i className={cn("fa fa-times")} aria-hidden="true"></i>
-                </p>
-              )} */}
             <div className={styles.quizScore}>Score: {quizScore}</div>
             <div className={styles.buttonContainer}>
               {currentQuestionIndex > 0 && (

@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
-import styles from "./GalleryView.module.css";
+import styles from "./GalleryView.module.scss";
 
 const importAll = (r: any) => {
   return r.keys().map(r);
 };
 
 const galleryImages = importAll(
-  require.context("../../images", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../images/PhotoGallery", false, /\.(png|jpe?g|svg)$/)
 );
 
 const GalleryView = () => {
@@ -16,7 +16,7 @@ const GalleryView = () => {
     <>
       <Header />
       <div className={styles.galleryContainer}>
-        <div className={styles.videoSection}>
+        {/* <div className={styles.videoSection}>
           <div className={styles.galleryHeadLine}>
             {""}
             <h2>VIDEO GALLERY</h2>
@@ -39,7 +39,7 @@ const GalleryView = () => {
               ></iframe>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={styles.galleryHeadLine}>
           {" "}
           <h2>PHOTO GALLERY</h2>

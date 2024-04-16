@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePageView from "./views/HomePageView";
 import AboutUsView from "./views/AboutUsView";
 import ContactUsView from "./views/ContactUsView";
@@ -9,7 +9,7 @@ import TestimonialView from "./views/TestimonialView";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/children-traffic-park">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePageView />} />
         <Route path="/aboutus" element={<AboutUsView />} />
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/quiz" element={<QuizView />} />
         <Route path="/testimonials" element={<TestimonialView />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

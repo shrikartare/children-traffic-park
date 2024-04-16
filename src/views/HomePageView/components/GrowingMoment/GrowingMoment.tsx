@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { useNavigate } from "react-router-dom";
-import styles from "./GrowingMoment.module.css";
+import styles from "./GrowingMoment.module.scss";
 
 const GrowingMoment = () => {
   const navigate = useNavigate();
