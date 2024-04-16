@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e69998b.css",
-    "main.js": "/static/js/main.d27000c2.js",
+    "main.css": "/static/css/main.28203e72.css",
+    "main.js": "/static/js/main.1695927f.js",
     "static/js/453.c49f1ce5.chunk.js": "/static/js/453.c49f1ce5.chunk.js",
     "static/media/TrafficPoster_55png.png": "/static/media/TrafficPoster_55png.aa36ee784b7796ba1c19.png",
     "static/media/TrafficparkTeam_02.jpeg": "/static/media/TrafficparkTeam_02.bb492d69e411cdab6a13.jpeg",
@@ -55,6 +55,8 @@
     "static/media/TrafficSansa_01.jpg": "/static/media/TrafficSansa_01.d58c94b329b6091ed7c1.jpg",
     "static/media/RedHatDisplay-VariableFont_wght.ttf": "/static/media/RedHatDisplay-VariableFont_wght.1347a18cbb2d6ed45e1a.ttf",
     "static/media/laneChange_01.png": "/static/media/laneChange_01.967e4f2040940c3d0758.png",
+    "static/media/noparking.png": "/static/media/noparking.a5eb2e6d1044f093181a.png",
+    "static/media/noentry.png": "/static/media/noentry.f35462507403b7456f35.png",
     "static/media/halt.png": "/static/media/halt.39bd32d0c7e9ef10da8d.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -62,12 +64,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/stop.svg": "/static/media/stop.95f8fb05ed31a91d0a45.svg",
-    "main.1e69998b.css.map": "/static/css/main.1e69998b.css.map",
-    "main.d27000c2.js.map": "/static/js/main.d27000c2.js.map",
+    "main.28203e72.css.map": "/static/css/main.28203e72.css.map",
+    "main.1695927f.js.map": "/static/js/main.1695927f.js.map",
     "453.c49f1ce5.chunk.js.map": "/static/js/453.c49f1ce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e69998b.css",
-    "static/js/main.d27000c2.js"
+    "static/css/main.28203e72.css",
+    "static/js/main.1695927f.js"
   ]
 }
