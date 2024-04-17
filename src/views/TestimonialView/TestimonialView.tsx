@@ -13,7 +13,7 @@ const Testimonials = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -41,7 +41,7 @@ const Testimonials = () => {
 
   const onClickReviewBtn = () => {
     window.open(
-      "https://www.google.com/search?q=aatapi+wonderland&sca_esv=8b94fdf9c54254b4&rlz=1C1CHZN_enIN966IN966&ei=H3XtZZe9EM7i2roPosG20AU&gs_ssp=eJzj4tVP1zc0zDDKMDIvT841YLRSNagwtjRNSzE3TU4zN00zMbewtDKoMEpNMUxMNkhOtLA0NbOwSPMSTEwsSSzIVCjPz0tJLcpJzEsBAPbuFgg&oq=atapi+wondoerlan&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGF0YXBpIHdvbmRvZXJsYW4qAggAMhMQLhgNGK8BGMcBGLEDGIAEGI4FMgcQABiABBgNMgcQABiABBgNMgoQABiABBgNGLEDMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMgcQABiABBgNMiIQLhgNGK8BGMcBGLEDGIAEGI4FGJcFGNwEGN4EGOAE2AEDSKonUABY1x1wAXgBkAEAmAGGAqAB5B2qAQQyLTE2uAEDyAEA-AEBmAIRoALjHqgCEsICFBAAGIAEGOMEGOkEGOoCGLQC2AEBwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAsICCxAAGIAEGIoFGJECwgIREC4YgAQYsQMYgwEYxwEY0QPCAg4QLhiDARixAxiABBiKBcICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEwgIQEC4YgAQYigUYQxjHARivAcICEBAuGIAEGIoFGEMYxwEY0QPCAgoQLhiABBiKBRhDwgIREC4YgAQYsQMYxwEYrwEYjgXCAg0QABiABBiKBRhDGLEDwgILEC4YgAQYigUYsQPCAh8QLhiABBiKBRhDGMcBGK8BGJcFGNwEGN4EGOAE2AEDwgIXEC4YrwEYxwEYkQIYsQMYgAQYigUYjgXCAggQLhixAxiABMICDhAAGIAEGIoFGJECGLEDwgIOEC4YgAQYsQMYxwEYrwHCAhMQLhiABBiKBRhDGLEDGIMBGNQCwgImEC4YrwEYxwEYkQIYsQMYgAQYigUYjgUYlwUY3AQY3gQY4ATYAQPCAhMQLhhDGK8BGMcBGIAEGIoFGI4FwgIKEAAYgAQYigUYQ8ICBRAAGIAEwgIHEAAYgAQYCsICChAAGIAEGAoYsQPCAiIQLhhDGK8BGMcBGIAEGIoFGI4FGJcFGNwEGN4EGOAE2AEDwgIREC4YrwEYxwEYkgMYgAQYjgXCAggQABiABBjJA8ICCxAAGIAEGIoFGJIDwgIgEC4YrwEYxwEYkgMYgAQYjgUYlwUY3AQY3gQY4ATYAQPCAg4QLhivARjHARjJAxiABMICHRAuGK8BGMcBGMkDGIAEGJcFGNwEGN4EGOAE2AEDwgIaEC4YrwEYxwEYkQIYsQMYyQMYgAQYigUYjgXCAikQLhivARjHARiRAhixAxjJAxiABBiKBRiOBRiXBRjcBBjeBBjgBNgBA8ICEhAuGA0YrwEYxwEYgAQYjgUYCsICCRAAGIAEGA0YCsICIRAuGA0YrwEYxwEYgAQYjgUYChiXBRjcBBjeBBjgBNgBA5gDB7oGBAgBGAe6BgYIAhABGAq6BgYIAxABGBSSBwYxLjAuMTagB7nFAQ&sclient=gws-wiz-serp#lrd=0x395fd75cf75f4789:0x2ed1ac0ca895688f,3,,,,",
+      "https://www.google.com/search?q=children+traffic+park+karelibaug&rlz=1C1CHZN_enIN966IN966&oq=children+traffic+pa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg5MgYIBBBFGEAyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzNTc0ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#lrd=0x395fcf2bfb196ffb:0xb0b985f264774aa1,3,,,,",
       "_blank"
     );
   };
@@ -58,10 +58,7 @@ const Testimonials = () => {
               <p className={styles.feedbackText}>
                 I couldn't be happier with the experience at Traffic Park. The
                 interactive sessions and hands-on activities kept my students
-                engaged and excited about learning road safety. It's a
-                must-visit for every school and parent who wants to ensure their
-                children grow up with a strong awareness of responsible road
-                behavior.
+                engaged and excited about learning road safety.
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
@@ -73,8 +70,7 @@ const Testimonials = () => {
                 Traffic Park has set a benchmark in road safety education. The
                 informative sessions were not just educational but also fun,
                 making it a memorable experience for my students. I highly
-                recommend Traffic Park to schools looking for a comprehensive
-                and engaging road safety program.
+                recommend Traffic Park to schools looking for engaging road safety program.
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>

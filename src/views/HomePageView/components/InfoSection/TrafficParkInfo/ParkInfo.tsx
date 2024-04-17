@@ -40,6 +40,8 @@ const ParkInfo = () => {
             traffic and in reducing the potential risk of accidents.Gaining
             knowledge on these will result in prevention of road offences and
             increase road discipline.
+
+            
           </p>
         </div>
         <div className={styles.parkinfoImageContainer}>

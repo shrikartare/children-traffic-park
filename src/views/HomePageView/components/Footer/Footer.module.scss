@@ -23,6 +23,7 @@
     text-decoration: underline;
     @media only screen and (max-width: 768px) {
       padding-left: 0px;
+      margin-bottom:8px;
     }
   }
   ul {
@@ -64,6 +65,9 @@
   margin-top: 1%;
   h4 {
     text-decoration: underline;
+    @media only screen and (max-width: 768px) {
+      margin-bottom:8px;
+    }
   }
   ul {
     margin: 0px;
@@ -117,7 +121,7 @@
   padding: 5px 20px 5px 20px;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   p {
     display: inline;
     margin: 6px 0px 0px 0px;
@@ -141,4 +145,16 @@
 
 .activeLink {
   color: #ffc235 !important;
+}
+
+.addressLink.addressLink {
+  padding: 0px;
+  text-decoration: underline;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  cursor: pointer;
 }

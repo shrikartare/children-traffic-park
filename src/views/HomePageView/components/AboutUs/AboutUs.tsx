@@ -9,18 +9,20 @@ const AboutUs = () => {
         <h2>Children Traffic Park</h2>
         <div className={styles.dividerLine} />
         <div className={styles.videoSection}>
-          <img
-            src={trafficPoster}
-            alt="Traffic Park"
-            width="100%"
-            height="100%"
-          />
+          <a href={trafficPoster} target="_blank">
+            <img
+              src={trafficPoster}
+              alt="Childrent Traffic Park"
+              width="100%"
+              height="100%"
+            />
+          </a>
         </div>
       </div>
 
       <div className={styles.aboutUsDetail}>
         <p>
-          Children Traffic Park founded on 31 january 2024 is a vibrant space
+          Children Traffic Park founded on 31st January 2024 is a vibrant space
           dedicated to shaping the future of road safety education.Our park is
           more than just an educational hub – it's an immersive experience
           designed to instill a deep understanding of road safety in the hearts

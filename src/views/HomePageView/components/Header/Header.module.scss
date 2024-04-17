@@ -120,6 +120,7 @@ header {
   color: rgb(20, 25, 89, 0.94);
   padding: 2px 0px 2px 0px;
   text-align: center;
+
   a {
     color: rgb(20, 25, 89, 0.94);
   }
@@ -127,9 +128,13 @@ header {
     position: relative;
     top: 7px;
     letter-spacing: 1px;
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       animation: none;
       left: 5px;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 }

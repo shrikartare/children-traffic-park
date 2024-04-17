@@ -12,14 +12,14 @@ const Header = () => {
     <>
       <div className={styles.bookingBanner}>
         <span className={styles.bannerText}>
-          childrentrafficpark@gmail.com | +91 9875192122
+        childrentrafficpark@gmail.com | +91 9875192122
         </span>
       </div>
       <header>
         <div className={styles.headerContainer}>
           <div className={styles.siteLogo}>
             <a onClick={() => navigate("/")}>
-              <img src={logo} alt="Logo" />
+              <img src={logo} alt="Children Traffic Park Vadodara" />
             </a>
           </div>
           <nav className={styles.desktopMenu}>

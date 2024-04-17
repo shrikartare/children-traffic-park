@@ -83,12 +83,6 @@ const Footer = () => {
           <h4> Contact Us</h4>
           <ul>
             <li>
-              <i className="fa fa-map-marker" aria-hidden="true"></i>
-              Children Traffic Park, Bhutdi Jampa Police Quarters Compound,
-              Behind Mahila Police Station, Traffic Office (East Zone),
-              Karelibaug, Vadodara-390005
-            </li>
-            <li>
               <i className="fa fa-mobile" aria-hidden="true"></i>
               +91 9875192122
             </li>
@@ -96,13 +90,26 @@ const Footer = () => {
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
               childrentrafficpark@gmail.com
             </li>
+
+            <li>
+              <a
+                className={styles.addressLink}
+                target="_blank"
+                href="https://maps.app.goo.gl/5XZfmMy1Qh8ikLmm7"
+              >
+                <i className="fa fa-map-marker" aria-hidden="true"></i>
+                Children Traffic Park, Bhutdi Jampa Police Quarters Compound,
+                Behind Mahila Police Station, Traffic Office (East Zone),
+                Karelibaug, Vadodara-390005
+              </a>
+            </li>
           </ul>
         </nav>
       </footer>
 
       <div className={styles.copyrightContainer}>
-        <p> © 2024 Traffic Park. </p>
-        <nav className={styles.socialLinks}>
+        <p> © 2024 Children Traffic Park. </p>
+        {/* <nav className={styles.socialLinks}>
           <ul>
             <li>
               <a href="#home">
@@ -120,7 +127,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </>
   );

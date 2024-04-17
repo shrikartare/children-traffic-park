@@ -14,7 +14,9 @@ const AboutUsView = () => {
         </div>
         <div className={styles.aboutUsInfo}>
           <div className={styles.aboutUsImage}>
-            <img src={aboutUsImg} alt="about us" />
+            <a target="_blank" href={aboutUsImg}>
+              <img src={aboutUsImg} alt="about us" />
+            </a>
           </div>
 
           <div className={styles.welcomeContainer}>
@@ -30,7 +32,8 @@ const AboutUsView = () => {
             <p>
               Also to make people aware about environment and increase awarness
               about banyan tree in Vadodara city (Vadnagri), we have constructed
-              a nursery which showcases many different types of cultural forests.
+              a nursery which showcases many different types of cultural
+              forests.
             </p>
             <p>
               Our park features realistic signals, interactive exhibits, and

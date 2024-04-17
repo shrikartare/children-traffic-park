@@ -47,9 +47,7 @@ const Testimonials = () => {
             <p className={styles.feedbackText}>
               I couldn't be happier with the experience at Traffic Park. The
               interactive sessions and hands-on activities kept my students
-              engaged and excited about learning road safety. It's a must-visit
-              for every school and parent who wants to ensure their children
-              grow up with a strong awareness of responsible road behavior.
+              engaged and excited about learning road safety.
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
