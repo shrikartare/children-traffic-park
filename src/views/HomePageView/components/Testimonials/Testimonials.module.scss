@@ -1,18 +1,10 @@
 .dividerLine {
-  margin: 10px auto 20px auto;
+  margin: 10px auto 25px auto;
   width: 250px;
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: rgb(20, 25, 89, 0.94);
-}
-
-.feedbackSection h2 {
-  text-align: center;
-  margin-top: 10px;
-}
-.feedbackSection h3 {
-  text-align: center;
+  background-color: rgb(20, 25, 89,0.89);
 }
 
 .feedbackContainer {
@@ -26,10 +18,26 @@
 .feedbackSection {
   background-color: #f4f4f4;
   padding-bottom: 60px;
+  h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(10, 10, 10, 0.9);
+    text-align: center;
+  }
+  h2 {
+    font-size: 22px;
+    color: rgba(20, 25, 89,0.89);
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 
 .feedbackText {
-  background-color: rgb(20, 25, 89, 0.94);
+  background-color: rgb(20, 25, 89,0.89);
   border-radius: 10px;
   min-height: 141px;
   letter-spacing: 1px;
@@ -67,7 +75,7 @@
   margin: 0 auto;
   width: 0;
   height: 0;
-  border-top: 22px solid rgb(20, 25, 89, 0.94);
+  border-top: 22px solid rgb(20, 25, 89,0.89);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }

@@ -24,6 +24,7 @@ const TrafficSansad = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10000,
+    adaptiveHeight: true
   };
   const thumbnailImages = nurseyImages.slice(0, 10);
   return (

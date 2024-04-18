@@ -12,7 +12,7 @@ const AboutUs = () => {
           <a href={trafficPoster} target="_blank">
             <img
               src={trafficPoster}
-              alt="Childrent Traffic Park"
+              alt="Children Traffic Park"
               width="100%"
               height="100%"
             />

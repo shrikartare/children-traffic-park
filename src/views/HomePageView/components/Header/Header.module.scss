@@ -23,7 +23,7 @@ header {
 }
 
 .headerContainer {
-  background-color: rgb(20, 25, 89, 0.94);
+  background-color: rgb(20, 25, 89,0.94);
   padding: 0px 90px;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@ header {
 }
 
 .hamburgerMenu {
-  background-color: rgb(20, 25, 89, 0.94);
+  background-color: rgb(20, 25, 89,0.89);
   display: none;
   ul {
     list-style-type: none;
@@ -117,12 +117,12 @@ header {
 .bookingBanner {
   background-color: #ffc235;
   height: 30px;
-  color: rgb(20, 25, 89, 0.94);
+  color: rgb(20, 25, 89,0.89);
   padding: 2px 0px 2px 0px;
   text-align: center;
 
   a {
-    color: rgb(20, 25, 89, 0.94);
+    color: rgb(20, 25, 89,0.89);
   }
   .bannerText {
     position: relative;

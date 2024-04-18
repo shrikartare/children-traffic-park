@@ -50,7 +50,7 @@ const ParkInfo = () => {
               {thumbnailImages.map((imgSrc: string) => {
                 return (
                   <div className={styles.parkInfoimageWrapper}>
-                    <a href={imgSrc} target="_blank">
+                    <a href={imgSrc}  target="_blank">
                       <img
                         src={imgSrc}
                         className={styles.parkinfoImage}

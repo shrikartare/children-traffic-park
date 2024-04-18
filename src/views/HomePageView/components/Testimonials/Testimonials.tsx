@@ -40,7 +40,6 @@ const Testimonials = () => {
     <div className={styles.feedbackSection}>
       <h2>Testimonials</h2>
       <div className={styles.dividerLine} />
-      <h3>What schools have to say</h3>
       <div className={styles.feedbackContainer}>
         <Slider {...settings}>
           <div className={styles.feedbackInfo}>

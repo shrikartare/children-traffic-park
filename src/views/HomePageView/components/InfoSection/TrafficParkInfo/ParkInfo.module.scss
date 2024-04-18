@@ -3,9 +3,13 @@
 }
 
 .parkinfoImage {
-  height: 325px;
+  // height: 325px;
   width: 100%;
 }
+[class*="slick-arrow"]::before{
+  color: grey;
+}
+
 
 .parkinfoInfo {
   float: left;
@@ -31,7 +35,7 @@
 
 .parkinfoHeadLine {
   font-size: 22px;
-  color: rgb(20, 25, 89, 0.94);
+  color: rgb(20, 25, 89,0.89);
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
@@ -44,7 +48,7 @@
   height: 3px;
   transform: scale(1, 1);
   visibility: visible;
-  background-color: rgb(20, 25, 89, 0.94);
+  background-color: rgb(20, 25, 89,0.89);
   margin: 0 auto;
 }
 
