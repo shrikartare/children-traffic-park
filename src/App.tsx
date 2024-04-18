@@ -13,23 +13,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePageView />} />
         <Route path="/aboutus" element={<AboutUsView />} />
-        <Route
-          path="/gallery"
-          element={
-            <React.Suspense fallback={<>...</>}>
-              <GalleryView />
-            </React.Suspense>
-          }
-        />
+        <Route path="/gallery" element={<GalleryView />} />
         <Route path="/contactus" element={<ContactUsView />} />
-        <Route
-          path="/quiz"
-          element={
-            <React.Suspense fallback={<>...</>}>
-              <QuizView />
-            </React.Suspense>
-          }
-        />
+        <Route path="/quiz" element={<QuizView />} />
         <Route path="/testimonials" element={<TestimonialView />} />
       </Routes>
     </HashRouter>
