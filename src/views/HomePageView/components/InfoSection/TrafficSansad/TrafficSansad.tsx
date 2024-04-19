@@ -10,7 +10,7 @@ const importAll = (r: any) => {
 
 const nurseyImages = importAll(
   require.context(
-    "../../../../../images/TrafficSansad",
+    "../../../../../images/TrafficSansad/compressed",
     false,
     /\.(png|jpe?g|svg)$/
   )
@@ -24,7 +24,7 @@ const TrafficSansad = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10000,
-    adaptiveHeight: true
+    adaptiveHeight: true,
   };
   const thumbnailImages = nurseyImages.slice(0, 10);
   return (
@@ -39,6 +39,7 @@ const TrafficSansad = () => {
                 return (
                   <a href={imgSrc} target="_blank">
                     <img
+                      loading="lazy"
                       src={imgSrc}
                       className={styles.sansadImage}
                       alt="Sansad"

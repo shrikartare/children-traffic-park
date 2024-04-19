@@ -6,7 +6,7 @@ import styles from "./QuizView.module.scss";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
 
-import quizimage from "../../images/quiz/quizimage.png";
+import quizimage from "../../images/quiz/quizimage.jpg";
 
 const importAll = (r: any) => {
   return r.keys().map((img: any) => {

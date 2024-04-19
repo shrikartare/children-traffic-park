@@ -9,7 +9,7 @@ const importAll = (r: any) => {
 };
 
 const nurseyImages = importAll(
-  require.context("../../../../../images/ParkInfo", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../../../../images/ParkInfo/Compressed", false, /\.(png|jpe?g|svg)$/)
 );
 const ParkInfo = () => {
   const settings = {
@@ -52,6 +52,7 @@ const ParkInfo = () => {
                   <div className={styles.parkInfoimageWrapper}>
                     <a href={imgSrc}  target="_blank">
                       <img
+                        loading="lazy"
                         src={imgSrc}
                         className={styles.parkinfoImage}
                         alt="ParkInfo"

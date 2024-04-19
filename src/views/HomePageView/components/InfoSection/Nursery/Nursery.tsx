@@ -9,7 +9,7 @@ const importAll = (r: any) => {
 };
 
 const nurseyImages = importAll(
-  require.context("../../../../../images/Nursery", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../../../../images/Nursery/compressed", false, /\.(png|jpe?g|svg)$/)
 );
 
 const Nursery = () => {
@@ -36,6 +36,7 @@ const Nursery = () => {
                 return (
                   <a href={imgSrc} target="_blank">
                     <img
+                      loading="lazy"
                       src={imgSrc}
                       className={styles.nurseryImage}
                       alt="Nursery"

@@ -1,5 +1,6 @@
 import React from "react";
-import trafficPoster from "../../../../images/Home_aboutUs/TrafficParkTitle.jpeg";
+import traffiParkImg from "../../../../images/Home_aboutUs/TrafficPark_C.jpg";
+import trafficPark from "../../../../images/Home_aboutUs/TrafficPark.jpg";
 import styles from "./AboutUs.module.scss";
 
 const AboutUs = () => {
@@ -9,12 +10,13 @@ const AboutUs = () => {
         <h2>Children Traffic Park</h2>
         <div className={styles.dividerLine} />
         <div className={styles.videoSection}>
-          <a href={trafficPoster} target="_blank">
+          <a href={trafficPark} target="_blank">
             <img
-              src={trafficPoster}
+              src={traffiParkImg}
               alt="Children Traffic Park"
               width="100%"
               height="100%"
+              loading="lazy"
             />
           </a>
         </div>

@@ -27,7 +27,13 @@ const Gallery = () => {
           <div className={styles.responsive}>
             <div className={styles.gallery}>
               <a target="_blank" href={img} rel="noreferrer">
-                <img src={img} alt="Cinque Terre" width="600" height="400" />
+                <img
+                  loading="lazy"
+                  src={img}
+                  alt="Cinque Terre"
+                  width="600"
+                  height="400"
+                />
               </a>
             </div>
           </div>

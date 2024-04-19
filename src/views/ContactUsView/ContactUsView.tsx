@@ -32,7 +32,7 @@ const ContactUsView = () => {
               </a>
             </p>
           </div>
-          <div className={styles.contactUsCard}>
+          <div className={classNames(styles.contactUsCard, styles.addressCard)}>
             <div className={styles.nectarIcon}>
               <i className={classNames("fa fa-map-marker")}></i>
             </div>

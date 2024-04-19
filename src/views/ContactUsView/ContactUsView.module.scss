@@ -17,6 +17,7 @@
   padding: 50px;
   @media (max-width: 768px) {
     flex-direction: column;
+    padding: 10px;
   }
 }
 
@@ -34,6 +35,13 @@
     flex-basis: 100%;
     margin-right: 0px;
     margin-top:20px;
+  }
+}
+
+.addressCard{
+  @media (max-width: 768px) {
+    text-align: justify;
+    padding: 10px;
   }
 }
 

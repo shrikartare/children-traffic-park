@@ -30,6 +30,15 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .growingMoment {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/GrowingMoment/tp_06_c.jpg");
+  }
+}
+
+
+
 .visitTrafficParkBtn {
   position: relative;
   background-color: rgb(20, 25, 89,0.89);
