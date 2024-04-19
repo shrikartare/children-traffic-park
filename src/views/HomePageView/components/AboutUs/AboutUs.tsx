@@ -24,7 +24,7 @@ const AboutUs = () => {
 
       <div className={styles.aboutUsDetail}>
         <p>
-          Children Traffic Park founded on 31st January 2024 is a vibrant space
+          Children Traffic Park founded on 31st January 2024 located in Karelibaug,Vadodara is a vibrant space
           dedicated to shaping the future of road safety education.Our park is
           more than just an educational hub – it's an immersive experience
           designed to instill a deep understanding of road safety in the hearts

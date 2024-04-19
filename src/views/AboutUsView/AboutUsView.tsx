@@ -23,7 +23,7 @@ const AboutUsView = () => {
             <h2>CHILDREN TRAFFIC PARK</h2>
             <div className={styles.dividerLine} />
             <p>
-              Welcome to Traffic Park, a vibrant space dedicated to shaping the
+              Children Traffic Park located at Karelibaug,Vadodara is a vibrant space dedicated to shaping the
               future of road safety education.Our park is more than just an
               educational hub – it’s an immersive experience designed to instill
               a deep understanding of road safety in the hearts and minds of
