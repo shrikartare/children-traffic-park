@@ -138,7 +138,8 @@ const QuizView = () => {
             <div className={styles.quizQuestion}>
               <p>
                 Question ({currentQuestionIndex + 1}/{filteredQuestions?.length}
-                ) Category: {filteredQuestions[currentQuestionIndex]?.category}
+                )
+                {/* Category: {filteredQuestions[currentQuestionIndex]?.category} */}
               </p>
               <p>
                 {filteredQuestions[currentQuestionIndex]?.question}
@@ -154,9 +155,6 @@ const QuizView = () => {
               )}
 
               <div className={styles.optionContainer}>
-                {/* <p> */}
-                {/* Category: {filteredQuestions[currentQuestionIndex]?.category} */}
-                {/* </p> */}
                 {filteredQuestions[currentQuestionIndex].options.map(
                   (opt: any, index: number) => {
                     return (
@@ -199,11 +197,11 @@ const QuizView = () => {
             </div>
             <div className={styles.quizScore}>Score: {quizScore}</div>
             <div className={styles.buttonContainer}>
-              {currentQuestionIndex > 0 && (
+              {/* {currentQuestionIndex > 0 && (
                 <button className={styles.nextBtn} onClick={onPreviousClick}>
                   Previous
                 </button>
-              )}
+              )} */}
 
               {selectedOption && (
                 <button className={styles.nextBtn} onClick={onNextClick}>
@@ -215,11 +213,11 @@ const QuizView = () => {
         )}
         {isQuizEnded && (
           <>
-            <div className={styles.quizScore}>
+            {/* <div className={styles.quizScore}>
               {" "}
               Quiz has ended. <br /> <br /> {quizScore} out of{" "}
               {filteredQuestions?.length} questions answered are correct.
-            </div>
+            </div> */}
 
             <button className={styles.retakeBtn} onClick={onRetakeQuiz}>
               Retake Quiz
