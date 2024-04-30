@@ -11,7 +11,8 @@ const Testimonials = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1024,
@@ -42,6 +43,21 @@ const Testimonials = () => {
       <div className={styles.dividerLine} />
       <div className={styles.feedbackContainer}>
         <Slider {...settings}>
+          <div className={styles.feedbackInfo}>
+            <p className={styles.feedbackText}>
+              On behalf of our team (Anand Vidya Vihar), I wanted to express
+              deepest appreciation for your valuable contribution. Your
+              interactive sessions with the students have made learning about
+              traffic rules fun and memorable. We encourage everyone to take
+              advantage of this opportunity to learn more about road safety.
+              Keep up your great work!
+            </p>
+
+            <div className={styles.bottomArrow}></div>
+            <div className={styles.reviewerName}>
+              Anita Arora (Anand Vidya Vihar)
+            </div>
+          </div>
           <div className={styles.feedbackInfo}>
             <p className={styles.feedbackText}>
               I couldn't be happier with the experience at Traffic Park. The
@@ -78,21 +94,6 @@ const Testimonials = () => {
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
               Bhavnaben Vyas - Teacher (New Era Girls School)
-            </div>
-          </div>
-
-          <div className={styles.feedbackInfo}>
-            <p className={styles.feedbackText}>
-              Traffic Park is a game-changer for kids' road safety education. My
-              daughter attended a session and came home not only with a better
-              understanding of traffic rules but also with a sparkle in her
-              eyes. Kudos to the dedicated team for making learning so
-              enjoyable!
-            </p>
-
-            <div className={styles.bottomArrow}></div>
-            <div className={styles.reviewerName}>
-              Rajendra Makhwana - Teacher (Vinay Vidhayala)
             </div>
           </div>
         </Slider>

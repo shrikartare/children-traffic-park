@@ -9,7 +9,7 @@ const importAll = (r: any) => {
 };
 
 const nurseyImages = importAll(
-  require.context("../../../../../images/Nursery/compressed", false, /\.(png|jpe?g|svg)$/)
+  require.context("../../../../../images/Nursery", false, /\.(png|jpe?g|svg)$/)
 );
 
 const Nursery = () => {
@@ -21,7 +21,7 @@ const Nursery = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10000,
-    adaptiveHeight: true
+    adaptiveHeight: true,
   };
   const thumbnailImages = nurseyImages.slice(0, 4);
   return (
@@ -51,11 +51,11 @@ const Nursery = () => {
         <div className={styles.nurseryInfo}>
           <p>
             To increase environmental awarness a nursey is developed along side
-            traffic park, which has many different types cultural forests.
-            These gives helps the young minds to understand importance of
-            nature. Since vadodara is also known as vadnagri,the banyan tree
-            theme in our park helps to cultivate importance of banyan tree and
-            promote culture and heritage of our city.
+            traffic park, which has many different types cultural forests. These
+            gives helps the young minds to understand importance of nature.
+            Since vadodara is also known as vadnagri,the banyan tree theme in
+            our park helps to cultivate importance of banyan tree and promote
+            culture and heritage of our city.
           </p>
         </div>
       </div>

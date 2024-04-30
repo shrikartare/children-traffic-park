@@ -3,6 +3,7 @@ import styles from "./AboutUsView.module.scss";
 import Header from "../HomePageView/components/Header";
 import Footer from "../HomePageView/components/Footer";
 import aboutUsImg from "../../images/TrafficParkTeam/TrafficparkTeam_02_c.jpg";
+import aboutUsImg_fullscreen from "../../images/TrafficParkTeam/TrafficparkTeam_02.jpeg";
 
 const AboutUsView = () => {
   return (
@@ -14,7 +15,7 @@ const AboutUsView = () => {
         </div>
         <div className={styles.aboutUsInfo}>
           <div className={styles.aboutUsImage}>
-            <a target="_blank" href={aboutUsImg}>
+            <a target="_blank" href={aboutUsImg_fullscreen}>
               <img src={aboutUsImg} alt="about us" />
             </a>
           </div>
@@ -23,11 +24,11 @@ const AboutUsView = () => {
             <h2>CHILDREN TRAFFIC PARK</h2>
             <div className={styles.dividerLine} />
             <p>
-              Children Traffic Park located at Karelibaug,Vadodara is a vibrant space dedicated to shaping the
-              future of road safety education.Our park is more than just an
-              educational hub – it’s an immersive experience designed to instill
-              a deep understanding of road safety in the hearts and minds of
-              young learners.
+              Children Traffic Park located at Karelibaug,Vadodara is a vibrant
+              space dedicated to shaping the future of road safety education.Our
+              park is more than just an educational hub – it’s an immersive
+              experience designed to instill a deep understanding of road safety
+              in the hearts and minds of young learners.
             </p>
             <p>
               Also to make people aware about environment and increase awarness

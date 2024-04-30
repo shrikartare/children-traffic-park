@@ -7,16 +7,14 @@
   float: left;
 }
 
-.bannerSubtext{
+.bannerSubtext {
   letter-spacing: 2px;
 }
 
-.bannerImg1 {
+.bannerImg {
   height: 530px;
   max-width: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../../../images/TrafficParkTeam/TrafficParkTeam.jpeg");
   background-size: cover;
   display: inline-block;
   background-position-y: 40%;
@@ -26,9 +24,24 @@
     height: auto;
   }
 }
+.bannerImg1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/TrafficParkTeam/TrafficParkTeam.jpeg");
+}
+
+.bannerImg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/Banner/BannerImg2.jpg");
+}
+
+.bannerImg3 {
+  background-position-y: 70%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/Banner/BannerImg4.jpg");
+}
 
 .bannerInfo {
-  color: rgba(255, 255, 255, 2.6);
+  color: rgba(255, 255, 255, 2.4);
   padding-top: 6%;
   padding-left: 10%;
   @media only screen and (max-width: 768px) {
@@ -52,7 +65,7 @@
   }
   .exploreMoreBtn {
     position: relative;
-    background-color: rgb(20, 25, 89,0.89);
+    background-color: rgb(20, 25, 89, 0.89);
     display: block;
     margin-top: 30px;
     margin-bottom: 20px;

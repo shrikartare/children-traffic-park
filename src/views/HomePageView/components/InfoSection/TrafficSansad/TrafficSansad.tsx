@@ -10,7 +10,7 @@ const importAll = (r: any) => {
 
 const nurseyImages = importAll(
   require.context(
-    "../../../../../images/TrafficSansad/compressed",
+    "../../../../../images/TrafficSansad",
     false,
     /\.(png|jpe?g|svg)$/
   )
