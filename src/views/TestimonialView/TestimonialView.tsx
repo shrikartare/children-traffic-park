@@ -62,7 +62,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Masuuri Shubana - Teacher (The M.E.S Primary School)
+                Masuuri Shubana (The M.E.S Primary School)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -70,11 +70,12 @@ const Testimonials = () => {
                 Traffic Park has set a benchmark in road safety education. The
                 informative sessions were not just educational but also fun,
                 making it a memorable experience for my students. I highly
-                recommend Traffic Park to schools looking for engaging road safety program.
+                recommend Traffic Park to schools looking for engaging road
+                safety program.
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Bhavnaben Vyas - Teacher (New Era Girls School)
+                Bhavnaben Vyas (New Era Girls School)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -88,7 +89,22 @@ const Testimonials = () => {
 
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Rajendra Makhwana - Teacher (Vinay Vidhayala)
+                Rajendra Makhwana (Vinay Vidhayala)
+              </div>
+            </div>
+
+            <div className={styles.feedbackInfo}>
+              <p className={styles.feedbackText}>
+                I wanted to express deepest appreciation for your valuable
+                contribution. Your interactive sessions with the students have
+                made learning about traffic rules fun and memorable. We
+                encourage everyone to take advantage of this opportunity to
+                learn more about road safety. Keep up your great work!
+              </p>
+
+              <div className={styles.bottomArrow}></div>
+              <div className={styles.reviewerName}>
+                Anita Arora (Anand Vidya Vihar)
               </div>
             </div>
           </Slider>
