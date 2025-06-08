@@ -18,7 +18,7 @@ const ContactUsView = () => {
               <i className={classNames("fa fa-mobile")}></i>
             </div>
             <p>
-              <a href="tel:6031112298">+91 9875192122</a>
+              <a href="tel:6031112298">+123456789</a>
             </p>
           </div>
           <div className={styles.contactUsCard}>
