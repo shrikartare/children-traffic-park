@@ -2,6 +2,11 @@ import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
 import logo from "../../../../images/Logo/logo.jpg";
+import {
+  CONTACT_ADDRESS,
+  CONTACT_EMAIL_DISPLAY,
+  CONTACT_PHONE_DISPLAY,
+} from "../../../../contactInfo";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
@@ -12,7 +17,7 @@ const Footer = () => {
       <footer className={styles.footerSection}>
         <div className={styles.logo}>
           <a onClick={() => navigate("/")}>
-            <img src={logo} alt="Logo" />
+            <img className="no-blur" src={logo} alt="Logo" />
           </a>
         </div>
         <nav className={styles.quickLinks}>
@@ -84,24 +89,18 @@ const Footer = () => {
           <ul>
             <li>
               <i className="fa fa-mobile" aria-hidden="true"></i>
-              +91 9875192122
+              {CONTACT_PHONE_DISPLAY}
             </li>
             <li>
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
-              childrentrafficpark@gmail.com
+              {CONTACT_EMAIL_DISPLAY}
             </li>
 
             <li>
-              <a
-                className={styles.addressLink}
-                target="_blank"
-                href="https://maps.app.goo.gl/5XZfmMy1Qh8ikLmm7"
-              >
+              <span className={styles.addressLink}>
                 <i className="fa fa-map-marker" aria-hidden="true"></i>
-                Children Traffic Park, Bhutdi Jampa Police Quarters Compound,
-                Behind Mahila Police Station, Traffic Office (East Zone),
-                Karelibaug, Vadodara-390005
-              </a>
+                {CONTACT_ADDRESS}
+              </span>
             </li>
           </ul>
         </nav>

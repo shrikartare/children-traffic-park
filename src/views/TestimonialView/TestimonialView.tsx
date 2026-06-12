@@ -40,10 +40,7 @@ const Testimonials = () => {
   };
 
   const onClickReviewBtn = () => {
-    window.open(
-      "https://www.google.com/search?q=children+traffic+park+karelibaug&rlz=1C1CHZN_enIN966IN966&oq=children+traffic+pa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg5MgYIBBBFGEAyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzNTc0ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#lrd=0x395fcf2bfb196ffb:0xb0b985f264774aa1,3,,,,",
-      "_blank"
-    );
+    window.open("https://www.google.com/search?q=children+traffic+park", "_blank");
   };
   return (
     <>
@@ -62,7 +59,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Masuuri Shubana (The M.E.S Primary School)
+                Amit Patel (Sample Primary School)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -75,7 +72,7 @@ const Testimonials = () => {
               </p>
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Bhavnaben Vyas (New Era Girls School)
+                Kavita Mehta (Sample Girls School)
               </div>
             </div>
             <div className={styles.feedbackInfo}>
@@ -89,7 +86,7 @@ const Testimonials = () => {
 
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Rajendra Makhwana (Vinay Vidhayala)
+                Neha Desai (Demo Academy)
               </div>
             </div>
 
@@ -104,7 +101,7 @@ const Testimonials = () => {
 
               <div className={styles.bottomArrow}></div>
               <div className={styles.reviewerName}>
-                Anita Arora (Anand Vidya Vihar)
+                Priya Sharma (Demo Public School)
               </div>
             </div>
           </Slider>

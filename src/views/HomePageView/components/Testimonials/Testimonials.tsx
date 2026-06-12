@@ -45,7 +45,7 @@ const Testimonials = () => {
         <Slider {...settings}>
           <div className={styles.feedbackInfo}>
             <p className={styles.feedbackText}>
-              On behalf of our team (Anand Vidya Vihar), I wanted to express
+              On behalf of our team (Demo Public School), I wanted to express
               deepest appreciation for your valuable contribution. Your
               interactive sessions with the students have made learning about
               traffic rules fun and memorable. We encourage everyone to take
@@ -55,7 +55,7 @@ const Testimonials = () => {
 
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Anita Arora (Anand Vidya Vihar)
+              Priya Sharma (Demo Public School)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
@@ -66,7 +66,7 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Masuuri Shubana - Teacher (The M.E.S Primary School)
+              Amit Patel - Teacher (Sample Primary School)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
@@ -79,7 +79,7 @@ const Testimonials = () => {
             </p>
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Rajendra Makhwana - Teacher (Vinay Vidhayala)
+              Neha Desai - Parent (Demo Academy)
             </div>
           </div>
           <div className={styles.feedbackInfo}>
@@ -93,7 +93,7 @@ const Testimonials = () => {
 
             <div className={styles.bottomArrow}></div>
             <div className={styles.reviewerName}>
-              Bhavnaben Vyas - Teacher (New Era Girls School)
+              Kavita Mehta - Teacher (Sample Girls School)
             </div>
           </div>
         </Slider>

@@ -3,6 +3,10 @@ import { useNavigate, useLocation } from "react-router-dom";
 import cn from "classnames";
 import styles from "./Header.module.scss";
 import logo from "../../../../images/Logo/logo.jpg";
+import {
+  CONTACT_EMAIL_DISPLAY,
+  CONTACT_PHONE_DISPLAY,
+} from "../../../../contactInfo";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -12,14 +16,18 @@ const Header = () => {
     <>
       <div className={styles.bookingBanner}>
         <span className={styles.bannerText}>
-        childrentrafficpark@gmail.com | +91 9875192122
+        {CONTACT_EMAIL_DISPLAY} | {CONTACT_PHONE_DISPLAY}
         </span>
       </div>
       <header>
         <div className={styles.headerContainer}>
           <div className={styles.siteLogo}>
             <a onClick={() => navigate("/")}>
-              <img src={logo} alt="Children Traffic Park Vadodara" />
+              <img
+                className="no-blur"
+                src={logo}
+                alt="Children Traffic Park logo"
+              />
             </a>
           </div>
           <nav className={styles.desktopMenu}>

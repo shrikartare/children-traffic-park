@@ -147,6 +147,7 @@ const QuizView = () => {
               </p>
               {filteredQuestions[currentQuestionIndex]?.imageName && (
                 <img
+                  className="no-blur"
                   src={getQuestionImage()}
                   height="100"
                   width="100"
@@ -170,6 +171,7 @@ const QuizView = () => {
                         {getOptionIndex(index)}.&nbsp;
                         {opt.image && (
                           <img
+                            className="no-blur"
                             src={getAnswerImage(opt?.image)}
                             height="40"
                             width="40"

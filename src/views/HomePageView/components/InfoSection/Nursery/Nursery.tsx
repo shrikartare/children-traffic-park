@@ -53,9 +53,9 @@ const Nursery = () => {
             To increase environmental awarness a nursey is developed along side
             traffic park, which has many different types cultural forests. These
             gives helps the young minds to understand importance of nature.
-            Since vadodara is also known as vadnagri,the banyan tree theme in
-            our park helps to cultivate importance of banyan tree and promote
-            culture and heritage of our city.
+            The local region is known for its banyan trees, and the banyan tree
+            theme in our park helps cultivate the importance of nature and
+            promote the culture and heritage of the community.
           </p>
         </div>
       </div>

@@ -8,3 +8,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+/* Light blur on photos; logos and quiz sign icons use .no-blur */
+img:not(.no-blur) {
+  filter: blur(4px);
+  object-fit: cover;
+}

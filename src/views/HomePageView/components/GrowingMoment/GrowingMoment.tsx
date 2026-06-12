@@ -12,7 +12,7 @@ const GrowingMoment = () => {
           <h2>JOIN THE GROWING MOMENT</h2>
           <p>
             Over 1000+ children have already experienced the enriching journey
-            at traffic park, located in karelibaug. Be part of the change,
+            at traffic park in Sample City. Be part of the change,
             schedule your visit now and empower your students with the knowledge
             of road safety.
           </p>

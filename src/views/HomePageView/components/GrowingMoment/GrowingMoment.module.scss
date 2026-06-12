@@ -1,12 +1,7 @@
 .growingMoment {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../../../images/GrowingMoment/tp_06.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-attachment: fixed;
-  -moz-background-attachment: fixed;
-  -o-background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-color: rgba(20, 25, 93, 0.84);
   opacity: 0.9;
   height: 400px;
@@ -15,18 +10,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: 100% 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    background-image: url("../../../../images/GrowingMoment/tp_06.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-size: 100% 100%;
+    filter: blur(4px);
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
   p {
     color: rgba(255, 255, 255, 2.6);
     letter-spacing: 1px;
     font-size: 17px;
   }
   @media only screen and (max-width: 768px) {
-    background-size: cover;
-    -webkit-background-attachment: none;
-    -moz-background-attachment: none;
-    -o-background-attachment: none;
-    background-attachment: fixed;
+    &::before {
+      background-size: cover;
+      -webkit-background-attachment: scroll;
+      -moz-background-attachment: scroll;
+      -o-background-attachment: scroll;
+      background-attachment: scroll;
+    }
   }
 }
 .visitTrafficParkBtn {

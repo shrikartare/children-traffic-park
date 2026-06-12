@@ -24,7 +24,7 @@ const AboutUs = () => {
       <div className={styles.aboutUsDetail}>
         <p>
           Children Traffic Park founded on 31st January 2024 located in
-          Karelibaug,Vadodara is a vibrant space dedicated to shaping the future
+          Sample City is a vibrant space dedicated to shaping the future
           of road safety education.Our park is more than just an educational hub
           – it's an immersive experience designed to instill a deep
           understanding of road safety in the hearts and minds of young
@@ -39,9 +39,9 @@ const AboutUs = () => {
         <p>
           Our park also has nursery to increase envrionment awarness. Also we
           have developed a unique concept traffic sansad where students can
-          pledge to observe traffic rules. Vadodara city is known for its
-          abundance of banyan trees.Our banyan tree based theme helps to
-          preserve and also promote the culture and heritage of Vadodara city.
+          pledge to observe traffic rules. The local region is known for its
+          abundance of banyan trees. Our banyan tree based theme helps to
+          preserve and also promote the culture and heritage of the community.
         </p>
       </div>
     </div>

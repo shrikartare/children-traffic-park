@@ -24,7 +24,7 @@ const AboutUsView = () => {
             <h2>CHILDREN TRAFFIC PARK</h2>
             <div className={styles.dividerLine} />
             <p>
-              Children Traffic Park located at Karelibaug,Vadodara is a vibrant
+              Children Traffic Park located in Sample City is a vibrant
               space dedicated to shaping the future of road safety education.Our
               park is more than just an educational hub – it’s an immersive
               experience designed to instill a deep understanding of road safety
@@ -32,7 +32,7 @@ const AboutUsView = () => {
             </p>
             <p>
               Also to make people aware about environment and increase awarness
-              about banyan tree in Vadodara city (Vadnagri), we have constructed
+              about banyan trees in the local region, we have constructed
               a nursery which showcases many different types of cultural
               forests.
             </p>
@@ -45,12 +45,12 @@ const AboutUsView = () => {
             </p>
             <h3 className={styles.owners}>Traffic Park Team</h3>
             <ul>
-              <li>Anupam Singh Gehlot (Commissioner of Police)</li>
-              <li>Jyoti Pankaj Patel (Deputy Commissioner of Police)</li>
-              <li>Manoj Ninama (Joint Commissioner of Police)</li>
-              <li>J.I.Vasava (Assistant Commissioner of Police,Traffic)</li>
-              <li>Vadodara Traffic Police</li>
-              <li>Vadodara City Traffic Education Trust</li>
+              <li>Traffic Safety Coordinator (Demo City Police)</li>
+              <li>Education Program Lead (Demo City Police)</li>
+              <li>Community Outreach Officer (Demo City Police)</li>
+              <li>Traffic Education Officer (Demo City Police)</li>
+              <li>Local Traffic Police</li>
+              <li>City Traffic Education Trust</li>
             </ul>
           </div>
         </div>
