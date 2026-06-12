@@ -18,10 +18,10 @@ const  ImageCarousel = ()=>{
          <div className={styles.sliderContainer}>
           <Slider {...settings}>
             <div>
-              <img alt="img1"  src={require('../../images/img01.jpeg')}/>
+              <img className="photo-blur" alt="Traffic park gallery" src={require('../../images/img01.jpeg')}/>
             </div>
             <div>
-            <img alt="img2"  src={require("../../images/img02.jpeg")  }/>
+            <img className="photo-blur" alt="Traffic park gallery" src={require('../../images/img02.jpeg')}/>
             </div>
           </Slider>
         </div>

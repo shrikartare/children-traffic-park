@@ -10,7 +10,7 @@ function Header() {
   return (
       <header>
         <div>
-        <img className={styles.logo}  src={logo} alt="vadodara traffic park"/>
+        <img className={styles.logo}  src={logo} alt="Children Traffic Park logo"/>
         <h2> TRAFFIC PARK</h2>
 
         </div>
