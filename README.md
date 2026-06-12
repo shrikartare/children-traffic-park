@@ -32,24 +32,23 @@ Output is written to the `build/` folder.
 
 ## Deployment (GitHub Pages)
 
-This project deploys automatically via **GitHub Actions** when you push to the `main` branch.
+| Trigger | How |
+|---------|-----|
+| **Automatic** | Push to `main` |
+| **Manual** | **Actions → Deploy to GitHub Pages → Run workflow** |
 
-### First-time setup
+### GitHub settings (once per repo)
 
-1. Push this repository to GitHub as `children-traffic-park` (e.g. `shrikartare/children-traffic-park`).
-2. In **Settings → Pages → Source**, select **GitHub Actions**.
-3. Push to `main` or run manually: **Actions → Deploy to GitHub Pages → Run workflow**
+1. **Settings → Actions → General → Workflow permissions** → **Read and write permissions**
+2. **Settings → Pages → Source** → **Deploy from a branch** → `gh-pages` / **(root)**
+3. Run workflow once to create `gh-pages`
+
+Public repos work with GitHub Pages on the free plan.
+
+### Manual deploy only
+
+Remove the `push:` section from `.github/workflows/deploy.yml`; keep only `workflow_dispatch:`.
 
 ### Live site
 
 `https://<your-github-username>.github.io/children-traffic-park/`
-
-The `homepage` field in `package.json` configures the GitHub Pages base path.
-
-### Manual deploy (optional)
-
-```bash
-npm run deploy
-```
-
-Publishes `build/` to the `gh-pages` branch. Prefer GitHub Actions for CI deploys.
