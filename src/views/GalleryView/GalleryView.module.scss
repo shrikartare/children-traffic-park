@@ -1,0 +1,91 @@
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.responsive {
+  padding: 10px 6px;
+  float: left;
+  width: 23.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 47.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.galleryContainer {
+  text-align: center;
+  padding-bottom: 20px;
+  h2 {
+    color: rgb(20, 25, 89,0.89);
+    margin-bottom: 10px;
+  }
+}
+
+.dividerLine {
+  margin: 10px auto 20px auto;
+  width: 250px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: rgb(20, 25, 89,0.89);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.arrowRight {
+  position: absolute;
+  right: 19px;
+  top: 20px;
+}
+
+.galleryHeadLine {
+  background-color: #f2f2f2;
+  height: 100px;
+  h2 {
+    color: rgb(20, 25, 89,0.89);
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 30%;
+  }
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.responsiveVideo {
+  flex-basis: 30%;
+  padding: 20px;
+  display: flex;
+  @media (max-width: 768px) {
+    flex-basis: 100% !important;
+  }
+}

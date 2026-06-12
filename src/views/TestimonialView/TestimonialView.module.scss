@@ -1,0 +1,98 @@
+.dividerLine {
+  margin: 10px auto 20px auto;
+  width: 140px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: #fff;
+}
+
+.feedbackSection h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
+}
+.feedbackSection h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.feedbackContainer {
+  padding: 0px 6% 0px 6%;
+  margin: 2% 0px 2% 0px;
+}
+
+.feedbackInfo {
+  position: relative;
+  margin-bottom: 20px;
+  width: 90% !important;
+  @media only screen and (max-width: 700px) {
+    width: 100% !important;
+  }
+  .reviewerName {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(10, 10, 10, 0.9);
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 26px;
+    text-align: center;
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.writetestimonialBtn {
+  position: relative;
+  font-family: redhatdisplay;
+  background-color: rgb(20, 25, 89,0.89);
+  display: block;
+  border-radius: 27px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  padding: 15px 35px 15px 35px;
+  margin: 70px auto 50px auto;
+  cursor: pointer;
+}
+
+.bottomArrow {
+  content: "";
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 22px solid rgb(20, 25, 89,0.89);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+.feedbackHeadLine {
+  background-color: #f2f2f2;
+  height: 100px;
+  h2 {
+    color: rgb(20, 25, 89,0.89);
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 30%;
+  }
+}
+
+.feedbackText {
+  background-color: rgb(20, 25, 89,0.89);
+  border-radius: 10px;
+  min-height: 130px;
+  letter-spacing: 1px;
+  max-height: 250px;
+  color: white;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+}

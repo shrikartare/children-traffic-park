@@ -1,0 +1,98 @@
+.banner {
+  height: 700px;
+  max-width: 100%;
+  width: 100%;
+  background-position-y: 20%;
+  background-size: cover;
+  float: left;
+}
+
+.bannerSubtext {
+  letter-spacing: 2px;
+}
+
+.bannerImg {
+  height: 530px;
+  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+  display: inline-block;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 768px) {
+    background-position-x: 80%;
+    height: auto;
+  }
+}
+.bannerImg1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/TrafficParkTeam/TrafficParkTeam.jpeg");
+}
+
+.bannerImg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/Banner/BannerImg2.jpg");
+}
+
+.bannerImg3 {
+  background-position-y: 70%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../../../../images/Banner/BannerImg4.jpg");
+}
+
+.bannerInfo {
+  color: rgba(255, 255, 255, 2.4);
+  padding-top: 6%;
+  padding-left: 10%;
+  @media only screen and (max-width: 768px) {
+    padding-top: 5%;
+  }
+  .bannerHeader {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 69px;
+    word-wrap: break-word;
+    letter-spacing: 3px;
+    span {
+      color: #ffc235;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 21px;
+      font-weight: normal;
+      line-height: normal;
+      margin-top: 3%;
+    }
+  }
+  .exploreMoreBtn {
+    position: relative;
+    background-color: rgb(20, 25, 89, 0.89);
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 27px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 15px 50px 15px 35px;
+    cursor: pointer;
+    @media only screen and (max-width: 768px) {
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 50px 10px 35px;
+    }
+  }
+}
+
+.arrowRight {
+  position: absolute;
+  right: 19px;
+  top: 20px;
+  @media only screen and (max-width: 768px) {
+    padding: 10px 50px 10px 35px;
+    right: -28px;
+    top: 6px;
+  }
+}

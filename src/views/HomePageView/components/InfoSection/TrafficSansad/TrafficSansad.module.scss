@@ -1,0 +1,67 @@
+.sansadImageGallery {
+  width: 100%;
+}
+
+.sansadImage {
+  // height: 330px;
+  width: 100%;
+}
+
+[class*="slick-arrow"]::before {
+  color: grey;
+}
+
+.sansadInfo {
+  width: 100%;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(10, 10, 10, 0.9);
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.sansadHeadLine {
+  font-size: 22px;
+  color: rgb(20, 25, 89,0.89);
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0px 2px 0px;
+}
+
+.dividerLine {
+  margin: 1px 10px 10px 0px;
+  width: 180px;
+  height: 3px;
+  transform: scale(1, 1);
+  visibility: visible;
+  background-color: rgb(20, 25, 89,0.89);
+  margin: 0 auto;
+}
+
+.sansadContainer {
+  padding: 30px 8px 10px 18px;
+  width: 36%;
+  margin-left: 8%;
+  float: left;
+  @media (max-width: 768px) {
+    width: 96%;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+.sansadImageContainer {
+  width: 100%;
+  margin-top: 20px;
+  @media (max-width: 768px) {
+    width: 99%;
+    margin-top: 10px;
+  }
+}
+
+.clearfix {
+  clear: both;
+}

@@ -1,0 +1,75 @@
+.contactUsHeadLine {
+  background-color: #f2f2f2;
+  height: 100px;
+  h2 {
+    color: rgb(20, 25, 89,0.89);
+    margin: 0px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 30%;
+  }
+}
+
+.contactUsContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.contactUsCard {
+  flex-basis: 30%;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(20, 25, 89,0.89);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.14), 0 20px 70px rgba(0, 0, 0, 0.12);
+  p {
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    flex-basis: 100%;
+    margin-right: 0px;
+    margin-top:20px;
+  }
+}
+
+.addressCard{
+  @media (max-width: 768px) {
+    text-align: justify;
+    padding: 10px;
+  }
+}
+
+.nectarIcon {
+  width: 90px;
+  height: 90px;
+  border-radius: 200px;
+  padding: 20px;
+  margin: 0px auto;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f2f2f2;
+  z-index: -1;
+  position: relative;
+  i {
+    font-size: 50px;
+    color: rgb(20, 25, 89,0.89);
+    line-height: 80px;
+  }
+}
+
+.mapContainer {
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  height:100%;
+  @media (max-width: 768px) {
+    width: 80%;
+    padding:10px;
+  }
+}

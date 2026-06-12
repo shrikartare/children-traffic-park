@@ -1,22 +1,10 @@
-/* Light blur on content photos — faces not recognizable (logo excluded) */
-.photo-blur {
-  filter: blur(4px);
-  object-fit: cover;
+@font-face {
+  font-family: "redhatdisplay";
+  src: url("./fonts/RedHatDisplay-VariableFont_wght.ttf") format("woff");
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: redhatdisplay;
+  margin: 0px;
+  padding: 0px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-
